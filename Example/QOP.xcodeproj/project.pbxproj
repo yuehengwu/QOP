@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		018E02E445FAFECB88A0FC3E /* Pods_QOP_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BFE204C3D74132D6D6F07 /* Pods_QOP_Tests.framework */; };
 		07A4D94934973470B230A0E2 /* Pods_QOP_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203597EFC284ADB02BC9AA8C /* Pods_QOP_Example.framework */; };
+		09342B0A23143B9D006ACCFF /* QOPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09342B0823143B9D006ACCFF /* QOPSecondViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19B7AF146F1369485B6ECAB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09342B0823143B9D006ACCFF /* QOPSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QOPSecondViewController.m; sourceTree = "<group>"; };
+		09342B0923143B9D006ACCFF /* QOPSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QOPSecondViewController.h; sourceTree = "<group>"; };
+		19B7AF146F1369485B6ECAB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		203597EFC284ADB02BC9AA8C /* Pods_QOP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QOP_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E38C3E1B39D9098C439DA5 /* Pods-QOP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QOP_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QOP_Example/Pods-QOP_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5F7BFE204C3D74132D6D6F07 /* Pods_QOP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QOP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +63,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A1E5CCEAF264A52D8455224 /* QOP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QOP.podspec; path = ../QOP.podspec; sourceTree = "<group>"; };
+		6A1E5CCEAF264A52D8455224 /* QOP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QOP.podspec; path = ../QOP.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A249A760CCA0755C259B3D45 /* Pods-QOP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QOP_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QOP_Tests/Pods-QOP_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A7FF7288687F30D6107F7FBE /* Pods-QOP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QOP_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QOP_Tests/Pods-QOP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6AE8A43F078722C77B55068 /* Pods-QOP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QOP_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QOP_Example/Pods-QOP_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C82D4E21D04AF26C9153C7F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C82D4E21D04AF26C9153C7F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* QOPViewController.h */,
 				6003F5A6195388D20070C39A /* QOPViewController.m */,
+				09342B0923143B9D006ACCFF /* QOPSecondViewController.h */,
+				09342B0823143B9D006ACCFF /* QOPSecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -337,11 +342,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QOP_Example/Pods-QOP_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
 				"${BUILT_PRODUCTS_DIR}/QOP/QOP.framework",
+				"${BUILT_PRODUCTS_DIR}/extobjc/extobjc.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QOP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/extobjc.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -358,6 +367,7 @@
 				6003F59E195388D20070C39A /* QOPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* QOPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				09342B0A23143B9D006ACCFF /* QOPSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

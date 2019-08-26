@@ -1,0 +1,27 @@
+PODS:
+  - extobjc (0.0.1)
+  - KVOController (1.2.0)
+  - QOP (0.1.0):
+    - extobjc
+    - KVOController
+
+DEPENDENCIES:
+  - QOP (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - extobjc
+    - KVOController
+
+EXTERNAL SOURCES:
+  QOP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  extobjc: a55d2f1212ce1cdac4c88bd19594a15c15bab5dc
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  QOP: d2f4ae91e1c4106a3dba27fbd982161d26f331d3
+
+PODFILE CHECKSUM: b2897c12ec5ee3912aacd0be962b684914243d03
+
+COCOAPODS: 1.5.3

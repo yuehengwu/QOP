@@ -26,12 +26,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '609223770@qq.com' => '609223770@qq.com' }
   s.source           = { :git => 'https://github.com/609223770@qq.com/QOP.git', :tag => s.version.to_s }
+
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QOP/Classes/**/*'
-  
+  s.dependency 'KVOController'
+  s.dependency 'extobjc'
+
   # s.resource_bundles = {
   #   'QOP' => ['QOP/Assets/*.png']
   # }
