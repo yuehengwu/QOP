@@ -10,6 +10,13 @@
 
 @implementation QOPKVOInfo
 
+- (instancetype)init {
+    if (self = [super init]) {
+        _options = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
+    }
+    return self;
+}
+
 - (void)dealloc {
     
 }

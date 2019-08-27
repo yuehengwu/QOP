@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ycl-fw-wv6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ycl-fw-wv6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -118,6 +118,14 @@
                                     <action selector="changeBTitleAction:" destination="kYv-Ba-JeQ" eventType="touchUpInside" id="h02-ip-zd4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pmk-wv-oQl">
+                                <rect key="frame" x="170" y="183" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <segue destination="Lvr-pq-mjF" kind="show" id="SZB-u1-Tqu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -125,6 +133,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WVW-rR-1eZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1067" y="429"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Trj-D4-3jI">
+            <objects>
+                <viewController id="Lvr-pq-mjF" customClass="QOPThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nO8-eV-QoI"/>
+                        <viewControllerLayoutGuide type="bottom" id="TZe-bY-jVO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MxQ-Gu-sWU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="input sth..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bRF-wC-19H">
+                                <rect key="frame" x="26" y="457" width="323" height="200"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ghX-gw-0Qv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Lvr-pq-mjF" id="k3D-VW-dPs"/>
+                                </connections>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="it will show what input text in the bottom" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NUs-r8-tCO">
+                                <rect key="frame" x="26" y="74" width="323" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="eo9-Pz-A5a"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Lvr-pq-mjF" id="tMM-Zt-j1v"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NUs-r8-tCO" firstAttribute="leading" secondItem="MxQ-Gu-sWU" secondAttribute="leadingMargin" constant="10" id="2XM-dy-aOA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bRF-wC-19H" secondAttribute="trailing" constant="10" id="7m2-q2-96G"/>
+                            <constraint firstItem="NUs-r8-tCO" firstAttribute="top" secondItem="nO8-eV-QoI" secondAttribute="bottom" constant="10" id="D0s-kl-Sn3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NUs-r8-tCO" secondAttribute="trailing" constant="10" id="KGx-Wk-JyL"/>
+                            <constraint firstItem="bRF-wC-19H" firstAttribute="leading" secondItem="MxQ-Gu-sWU" secondAttribute="leadingMargin" constant="10" id="gJM-Jp-rW3"/>
+                            <constraint firstItem="TZe-bY-jVO" firstAttribute="top" secondItem="bRF-wC-19H" secondAttribute="bottom" constant="10" id="jJA-dN-OZN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomTextView" destination="bRF-wC-19H" id="2pG-Fn-bKV"/>
+                        <outlet property="topTextView" destination="NUs-r8-tCO" id="FOe-tP-Nxo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Q7-AD-M1O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1882" y="422"/>
         </scene>
     </scenes>
 </document>

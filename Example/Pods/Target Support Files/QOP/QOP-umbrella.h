@@ -14,7 +14,6 @@
 #import "QOP.h"
 #import "QOPDataBindContext.h"
 #import "QOPDataBinding.h"
-#import "QOPDemoData.h"
 #import "QOPKVOInfo.h"
 #import "QOPKVOProxy.h"
 

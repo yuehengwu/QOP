@@ -10,6 +10,15 @@
 #import "QOPKVOInfo.h"
 #import "QOPKVOProxy.h"
 
+@implementation NSHashTable (qopSafe)
+
+- (void)qop_safeAdd:(id)object {
+    if (![self containsObject:object]) {
+        [self addObject:object];
+    }
+}
+
+@end
 
 @interface QOPDataBindContext ()
 
@@ -42,6 +51,10 @@
     
     return ^QOPDataBindContext *(id observer){
         
+        if (!observer) {
+            NSAssert(NO, @"Plz don't input a null observer.");
+        }
+        
         self.tempInfo.observer = observer;
         return self;
     };
@@ -53,9 +66,27 @@
     
     return ^QOPDataBindContext *(NSString *keypath) {
         
+        if (!keypath) {
+            NSAssert(NO, @"Plz don't input a null keypath.");
+        }
+        
         self.tempInfo.keyPath = keypath;
         
-        [self.map addObject:self.tempInfo];
+        [self.map qop_safeAdd:self.tempInfo];
+        
+        return self;
+    };
+}
+
+- (KVOOptionsContextBlock)options {
+    
+    NSParameterAssert(_tempInfo.observer);
+    
+    return ^QOPDataBindContext *(NSKeyValueObservingOptions options) {
+      
+        self.tempInfo.options = options;
+        
+        [self.map qop_safeAdd:self.tempInfo];
         
         return self;
     };
@@ -66,8 +97,7 @@
     NSParameterAssert(_tempInfo.keyPath);
     
     _tempInfo.updateBlock = updateBlock;
-    _tempInfo.options = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
-            
+    
     [_kvo bind:_tempInfo];
     
     return self;
@@ -84,8 +114,6 @@
 #pragma mark - KVO
 
 - (void)qop_observer:(id)observer keyPath:(NSString *)keyPath oldValue:(id)oldValue updatedValue:(id)updatedValue {
-    
-//    NSString *key = [self private_getMapKeyWithObserver:observer keypath:keyPath];s
     
     for (QOPKVOInfo *obj in _map) {
         if ([obj.observer isEqual:observer] && [obj.keyPath isEqualToString:keyPath]) {

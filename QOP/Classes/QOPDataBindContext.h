@@ -15,6 +15,8 @@
 
 - (KeyPathContextBlock)keypath;
 
+- (KVOOptionsContextBlock)options;
+
 - (id<QOPDataBinding>)update:(UpdateContextBlock)updateBlock;
 
 @end

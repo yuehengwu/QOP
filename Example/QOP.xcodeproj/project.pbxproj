@@ -25,6 +25,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E867931D2314B90E00EB1860 /* QOPDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = E867931B2314B90E00EB1860 /* QOPDemoData.m */; };
+		E86793202314C10B00EB1860 /* QOPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E867931F2314C10B00EB1860 /* QOPThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		A7FF7288687F30D6107F7FBE /* Pods-QOP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QOP_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QOP_Tests/Pods-QOP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6AE8A43F078722C77B55068 /* Pods-QOP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QOP_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QOP_Example/Pods-QOP_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C82D4E21D04AF26C9153C7F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E867931B2314B90E00EB1860 /* QOPDemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QOPDemoData.m; sourceTree = "<group>"; };
+		E867931C2314B90E00EB1860 /* QOPDemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QOPDemoData.h; sourceTree = "<group>"; };
+		E867931E2314C10B00EB1860 /* QOPThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QOPThirdViewController.h; sourceTree = "<group>"; };
+		E867931F2314C10B00EB1860 /* QOPThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QOPThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,10 +144,14 @@
 				6003F59C195388D20070C39A /* QOPAppDelegate.h */,
 				6003F59D195388D20070C39A /* QOPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				E867931C2314B90E00EB1860 /* QOPDemoData.h */,
+				E867931B2314B90E00EB1860 /* QOPDemoData.m */,
 				6003F5A5195388D20070C39A /* QOPViewController.h */,
 				6003F5A6195388D20070C39A /* QOPViewController.m */,
 				09342B0923143B9D006ACCFF /* QOPSecondViewController.h */,
 				09342B0823143B9D006ACCFF /* QOPSecondViewController.m */,
+				E867931E2314C10B00EB1860 /* QOPThirdViewController.h */,
+				E867931F2314C10B00EB1860 /* QOPThirdViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -341,7 +351,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QOP_Example/Pods-QOP_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-QOP_Example/Pods-QOP_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
 				"${BUILT_PRODUCTS_DIR}/QOP/QOP.framework",
 				"${BUILT_PRODUCTS_DIR}/extobjc/extobjc.framework",
@@ -354,7 +364,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QOP_Example/Pods-QOP_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QOP_Example/Pods-QOP_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,8 +374,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E867931D2314B90E00EB1860 /* QOPDemoData.m in Sources */,
 				6003F59E195388D20070C39A /* QOPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* QOPViewController.m in Sources */,
+				E86793202314C10B00EB1860 /* QOPThirdViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				09342B0A23143B9D006ACCFF /* QOPSecondViewController.m in Sources */,
 			);

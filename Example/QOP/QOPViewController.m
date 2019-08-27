@@ -7,7 +7,7 @@
 //
 
 #import "QOPViewController.h"
-#import "QOP.h"
+#import <QOP.h>
 #import <KVOController/KVOController.h>
 #import "QOPDemoData.h"
 
@@ -44,9 +44,8 @@
     
     self.title = QOPDemoData.instance.identifier;
     
-
     __weak typeof(self) ws = self;
-    [self.qop.bind(QOPDemoData.instance).keypath(@"identifier") update:^(id observer, id updatedValue) {
+    [self.qop.bind(QOPDemoData.instance).keypath(@"identifier").options(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld) update:^(id observer, id updatedValue) {
         ws.title = updatedValue;
     }];
 

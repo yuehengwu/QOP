@@ -8,7 +8,7 @@
 
 #import "QOPSecondViewController.h"
 #import "QOPDemoData.h"
-#import "QOP.h"
+#import <QOP.h>
 
 @interface QOPSecondViewController ()
 

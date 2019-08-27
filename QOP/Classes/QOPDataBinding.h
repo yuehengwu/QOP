@@ -12,6 +12,7 @@
 
 typedef QOPDataBindContext *(^BindContextBlock)(id);
 typedef QOPDataBindContext *(^KeyPathContextBlock)(NSString *);
+typedef QOPDataBindContext *(^KVOOptionsContextBlock)(NSKeyValueObservingOptions);
 typedef void (^UpdateContextBlock)(id observer, id updatedValue);
 
 
@@ -19,6 +20,9 @@ typedef void (^UpdateContextBlock)(id observer, id updatedValue);
 
 - (BindContextBlock)bind;
 - (KeyPathContextBlock)keypath;
+- (KVOOptionsContextBlock)options;
+
+
 - (id<QOPDataBinding>)update:(UpdateContextBlock)updateBlock;
 
 @end
