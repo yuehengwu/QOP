@@ -29,10 +29,9 @@
     self.title = @"B title";
     
     __weak typeof(self) ws = self;
-    [self.qop.bind(self).keypath(@"name") update:^(id observer, id updatedValue) {
-       
+    [QOPObserve(self, name) update:^(id observer, id updatedValue) {
         ws.title = updatedValue;
-    }];
+    }];   
 }
 
 /*

@@ -13,7 +13,7 @@
 
 - (BindContextBlock)bind;
 
-- (KeyPathContextBlock)keypath;
+- (KeyPathContextBlock)observe;
 
 - (KVOOptionsContextBlock)options;
 

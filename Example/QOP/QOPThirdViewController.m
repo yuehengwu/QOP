@@ -27,14 +27,11 @@
     // Do any additional setup after loading the view.
     
     __weak typeof(self) ws = self;
-    [self.bottomTextView.qop.bind(self.topTextView).keypath(@"text") update:^(id observer, id updatedValue) {
-       
+    [QOPObserve(self.topTextView, text) update:^(id observer, id updatedValue) {
         ws.bottomTextView.text = updatedValue;
-        
     }];
     
-    [self.topTextView.qop.bind(self.bottomTextView).keypath(@"text") update:^(id observer, id updatedValue) {
-        
+    [QOPObserve(self.bottomTextView, text) update:^(id observer, id updatedValue) {
         ws.topTextView.text = updatedValue;
     }];
     

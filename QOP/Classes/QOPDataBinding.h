@@ -19,7 +19,7 @@ typedef void (^UpdateContextBlock)(id observer, id updatedValue);
 @protocol QOPDataBinding <NSObject>
 
 - (BindContextBlock)bind;
-- (KeyPathContextBlock)keypath;
+- (KeyPathContextBlock)observe;
 - (KVOOptionsContextBlock)options;
 
 

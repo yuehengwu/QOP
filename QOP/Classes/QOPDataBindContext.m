@@ -60,7 +60,7 @@
     };
 }
 
-- (KeyPathContextBlock)keypath {
+- (KeyPathContextBlock)observe {
     
     NSParameterAssert(_tempInfo.observer);
     

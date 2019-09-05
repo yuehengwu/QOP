@@ -45,14 +45,14 @@
     self.title = QOPDemoData.instance.identifier;
     
     __weak typeof(self) ws = self;
-    [self.qop.bind(QOPDemoData.instance).keypath(@"identifier").options(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld) update:^(id observer, id updatedValue) {
+    [QOPObserve(QOPDemoData.instance, identifier) update:^(id observer, id updatedValue) {
         ws.title = updatedValue;
     }];
-
-    [self.qop.bind(self.info).keypath(@"name") update:^(id observer, id updatedValue) {
-
+    
+    [QOPObserve(self.info, name) update:^(id observer, id updatedValue) {
         ws.bindLabel.text = updatedValue;
     }];
+    
 }
 
 - (IBAction)obseAction:(UIButton *)sender {
