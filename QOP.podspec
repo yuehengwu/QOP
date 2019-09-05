@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/609223770@qq.com/QOP'
+  s.homepage         = 'https://gitlab.263nt.com/italkbbspecs/qop'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '609223770@qq.com' => '609223770@qq.com' }
-  s.source           = { :git => 'https://github.com/609223770@qq.com/QOP.git', :tag => s.version.to_s }
+  s.author           = { '609223770@qq.com' => 'yueheng.wu@net263.com' }
+  s.source           = { :git => 'ssh://git@gitlab.263nt.com:2200/italkbbspecs/qop.git', :tag => s.version.to_s }
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
