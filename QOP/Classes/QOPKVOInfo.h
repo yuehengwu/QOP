@@ -10,6 +10,8 @@
 
 @interface QOPKVOInfo : NSObject 
 
+@property (nonatomic, assign) BOOL isUnObserve;
+
 @property (nonatomic, weak) id observer;
 
 @property (nonatomic, copy) NSString *keyPath;

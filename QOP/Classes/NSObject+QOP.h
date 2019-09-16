@@ -12,23 +12,32 @@
 
 
 
-#define _QOPObserve(TARGET,KEYPATH, OPTIONS) \
+#define _QOPObserve(TARGET,KEYPATH,OPTIONS) \
 ({\
-TARGET.qop.bind(TARGET).observe(@keypath(TARGET,KEYPATH)).options(OPTIONS); \
+TARGET.qop.bind(TARGET).value(@keypath(TARGET,KEYPATH)).options(OPTIONS); \
 })
 
-#if __clang__ && (__clang_major__ >= 8)
-#define QOPObserve(TARGET, KEYPATH) _QOPObserve(TARGET, KEYPATH, (NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld))
-#else
-
-#define QOPObserve(TARGET, KEYPATH) \
+#define _QOPUnObserve(TARGET,KEYPATH) \
 ({ \
-_Pragma("clang diagnostic push") \
-_Pragma("clang diagnostic ignored \"-Wreceiver-is-weak\"") \
-_QOPObserve(TARGET, KEYPATH,(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld)) \
-_Pragma("clang diagnostic pop") \
+TARGET.qop.unbind(TARGET).value(@keypath(TARGET,KEYPATH)); \
 })
-#endif
+
+#define QOPObserve(TARGET, KEYPATH) _QOPObserve(TARGET, KEYPATH, (NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld))
+
+#define QOPUNObserve(TARGET, KEYPATH) _QOPUnObserve(TARGET,KEYPATH)
+
+//#if __clang__ && (__clang_major__ >= 8)
+//#define QOPObserve(TARGET, KEYPATH) _QOPObserve(TARGET, KEYPATH, (NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld))
+//#else
+//
+//#define QOPObserve(TARGET, KEYPATH) \
+//({ \
+//_Pragma("clang diagnostic push") \
+//_Pragma("clang diagnostic ignored \"-Wreceiver-is-weak\"") \
+//_QOPObserve(TARGET, KEYPATH,(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld)) \
+//_Pragma("clang diagnostic pop") \
+//})
+//#endif
 
 @interface NSObject (QOP)
 

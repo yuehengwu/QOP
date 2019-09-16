@@ -262,6 +262,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "609223770@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 29HA8N9RQ5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -507,6 +510,7 @@
 			baseConfigurationReference = 58E38C3E1B39D9098C439DA5 /* Pods-QOP_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QOP/QOP-Prefix.pch";
 				INFOPLIST_FILE = "QOP/QOP-Info.plist";
@@ -523,6 +527,7 @@
 			baseConfigurationReference = C6AE8A43F078722C77B55068 /* Pods-QOP_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QOP/QOP-Prefix.pch";
 				INFOPLIST_FILE = "QOP/QOP-Info.plist";

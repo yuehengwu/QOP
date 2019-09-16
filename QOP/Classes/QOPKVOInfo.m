@@ -13,6 +13,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         _options = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
+        _isUnObserve = NO;
     }
     return self;
 }

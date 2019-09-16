@@ -60,7 +60,23 @@
     };
 }
 
-- (KeyPathContextBlock)observe {
+- (BindContextBlock)unbind {
+    
+    _tempInfo = [[QOPKVOInfo alloc]init];
+    
+    return ^QOPDataBindContext *(id observer){
+        
+        if (!observer) {
+            NSAssert(NO, @"Plz don't input a null observer.");
+        }
+        
+        self.tempInfo.observer = observer;
+        self.tempInfo.isUnObserve = YES;
+        return self;
+    };
+}
+
+- (KeyPathContextBlock)value {
     
     NSParameterAssert(_tempInfo.observer);
     
@@ -70,8 +86,14 @@
             NSAssert(NO, @"Plz don't input a null keypath.");
         }
         
-        self.tempInfo.keyPath = keypath;
+        // If unobserve
+        if (self.tempInfo.isUnObserve) {
+            [self.kvo unbind:self.tempInfo];
+            return self;
+        }
         
+        // If observe
+        self.tempInfo.keyPath = keypath;
         [self.map qop_safeAdd:self.tempInfo];
         
         return self;
@@ -93,6 +115,11 @@
 }
 
 - (id<QOPDataBinding>)update:(UpdateContextBlock)updateBlock {
+    
+    if (_tempInfo.isUnObserve) {
+        NSAssert(NO, @"unobserve doesn't need to perform this fuction !");
+        return self;
+    }
     
     NSParameterAssert(_tempInfo.keyPath);
     

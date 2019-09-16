@@ -25,10 +25,12 @@
     return self;
 }
 
+#pragma mark - KVO
+
 - (void)bind:(QOPKVOInfo *)info {
     
     @weakify(self);
-    [info.KVOControllerNonRetaining observe:info.observer keyPath:info.keyPath options:info.options block:^(id  _Nullable observer, id  _Nonnull object, NSDictionary<NSString *,id> * _Nonnull change) {
+    [self.KVOControllerNonRetaining observe:info.observer keyPath:info.keyPath options:info.options block:^(id  _Nullable observer, id  _Nonnull object, NSDictionary<NSString *,id> * _Nonnull change) {
         @strongify(self);
         id oldValue = change[NSKeyValueChangeOldKey];
         id newValue = change[NSKeyValueChangeNewKey];
@@ -38,10 +40,18 @@
             }
         }
     }];
-    
 }
 
-#pragma mark - KVO
+- (void)unbind:(QOPKVOInfo *)info {
+    
+    if (!info.keyPath.length) {
+        [self.KVOControllerNonRetaining unobserve:info.observer];
+    }else {
+        [self.KVOControllerNonRetaining unobserve:info.observer keyPath:info.keyPath];
+    }
+}
+
+
 
 
 

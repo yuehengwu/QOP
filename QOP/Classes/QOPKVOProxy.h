@@ -18,6 +18,7 @@
 - (instancetype)initWithContext:(id<QOPKVOProxyKVOUpdating>)context;
 
 - (void)bind:(QOPKVOInfo *)info;
+- (void)unbind:(QOPKVOInfo *)info;
 
 @end
 

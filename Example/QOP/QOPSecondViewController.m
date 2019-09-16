@@ -29,6 +29,7 @@
     self.title = @"B title";
     
     __weak typeof(self) ws = self;
+    QOPUNObserve(self, name);
     [QOPObserve(self, name) update:^(id observer, id updatedValue) {
         ws.title = updatedValue;
     }];   

@@ -44,11 +44,14 @@
     
     self.title = QOPDemoData.instance.identifier;
     
+    
     __weak typeof(self) ws = self;
+    QOPUNObserve(QOPDemoData.instance, identifier);
     [QOPObserve(QOPDemoData.instance, identifier) update:^(id observer, id updatedValue) {
         ws.title = updatedValue;
     }];
     
+    QOPUNObserve(self.info, name);
     [QOPObserve(self.info, name) update:^(id observer, id updatedValue) {
         ws.bindLabel.text = updatedValue;
     }];

@@ -13,7 +13,9 @@
 
 - (BindContextBlock)bind;
 
-- (KeyPathContextBlock)observe;
+- (BindContextBlock)unbind;
+
+- (KeyPathContextBlock)value;
 
 - (KVOOptionsContextBlock)options;
 
