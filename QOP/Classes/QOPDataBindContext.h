@@ -11,14 +11,6 @@
 
 @interface QOPDataBindContext : NSObject <QOPDataBinding,QOPKVOProxyKVOUpdating>
 
-- (BindContextBlock)bind;
 
-- (BindContextBlock)unbind;
-
-- (KeyPathContextBlock)value;
-
-- (KVOOptionsContextBlock)options;
-
-- (id<QOPDataBinding>)update:(UpdateContextBlock)updateBlock;
 
 @end
