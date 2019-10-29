@@ -86,6 +86,8 @@
             NSAssert(NO, @"Plz don't input a null keypath.");
         }
         
+        self.tempInfo.keyPath = keypath; // Fix bug that tempInfo doesn't contain keypath when unbind first. Fixed on 2019-10-29
+        
         // If unobserve
         if (self.tempInfo.isUnObserve) {
             [self.kvo unbind:self.tempInfo];
@@ -93,7 +95,6 @@
         }
         
         // If observe
-        self.tempInfo.keyPath = keypath;
         [self.map qop_safeAdd:self.tempInfo];
         
         return self;

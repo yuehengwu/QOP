@@ -1,19 +1,19 @@
 {
   "name": "QOP",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "QOP is a simply way to implement data bind",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/609223770@qq.com/QOP",
+  "homepage": "https://gitlab.263nt.com/italkbbspecs/qop",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "609223770@qq.com": "609223770@qq.com"
+    "609223770@qq.com": "yueheng.wu@net263.com"
   },
   "source": {
-    "git": "https://github.com/609223770@qq.com/QOP.git",
-    "tag": "0.1.1"
+    "git": "ssh://git@gitlab.263nt.com:2200/italkbbspecs/qop.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
