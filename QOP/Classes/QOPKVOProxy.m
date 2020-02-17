@@ -34,7 +34,9 @@
         @strongify(self);
         id oldValue = change[NSKeyValueChangeOldKey];
         id newValue = change[NSKeyValueChangeNewKey];
+        
         if (![oldValue isEqual:newValue]){
+            newValue = newValue == NSNull.null ? nil : newValue; // fix crash if newValue is NSNull
             if ([self.context respondsToSelector:@selector(qop_observer:keyPath:oldValue:updatedValue:)]) {
                 [self.context qop_observer:object keyPath:info.keyPath oldValue:oldValue updatedValue:newValue];
             }
