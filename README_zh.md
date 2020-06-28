@@ -5,32 +5,31 @@
 [![License](https://img.shields.io/cocoapods/l/QOP.svg?style=flat)](https://cocoapods.org/pods/QOP)
 [![Platform](https://img.shields.io/cocoapods/p/QOP.svg?style=flat)](https://cocoapods.org/pods/QOP)
 
-中文文档：[中文文档](./README_zh.md)
+`QOP`（Queen of pain）是一款轻量级的数据绑定方案，底层采用`KVO`实现，链式调用优雅简单，并且使用者不需要关心循环引用及内存释放问题。
 
-`QOP` (Queen of pain) is a lightweight data binding solution. The bottom layer is implemented with `KVO`. Chained calls are elegant and simple, and users do not need to worry about circular references and memory release.
+## 如何使用？
 
-## how to use?
-
-- Quote header files
+- 引用头文件
 
 ```ruby
 #import <QOP.h>
 ```
 
-- To avoid listening to the same attribute multiple times, you can perform `QOPUNObserve` first, then `QOPObserve`
+- 为避免多次监听同一属性可先进行`QOPUNObserve`，再进行`QOPObserve`
 
 ```ruby
 __weak typeof(self) ws = self;
 QOPUNObserve(object, identifier);
-[QOPObserve(object, identifier) ​​update:^(id observer, id updatedValue) {
+[QOPObserve(object, identifier) update:^(id observer, id updatedValue) {
     ws.title = updatedValue;
 }];
 ```
 
-## Installation
+## 安装
 
-Just add it to Podfile:
+`Podfile`中添加即可:
 
 ```ruby
-pod'QOP'
+pod 'QOP'
 ```
+
