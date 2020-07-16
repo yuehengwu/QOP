@@ -19,11 +19,19 @@
 
 - To avoid listening to the same attribute multiple times, you can perform `QOPUNObserve` first, then `QOPObserve`
 
-```ruby
+```objc
 __weak typeof(self) ws = self;
 QOPUNObserve(object, identifier);
 [QOPObserve(object, identifier) ​​update:^(id observer, id updatedValue) {
     ws.title = updatedValue;
+}];
+```
+
+- Custom observer and  KVO strategy
+```objc
+// QOPKVOPolicy is KVO policy
+[QOPSPObserve(observer, target, keypath, QOPKVOPolicyInitial | QOPKVOPolicyAlways) update:^(id observer, id updatedValue) {
+    NSLog(@"first exe and always exe");
 }];
 ```
 

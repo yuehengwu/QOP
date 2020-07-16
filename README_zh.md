@@ -24,6 +24,14 @@ QOPUNObserve(object, identifier);
     ws.title = updatedValue;
 }];
 ```
+- 自定义数据绑定的监听者和监听策略
+
+```objc
+// QOPKVOPolicy is KVO policy
+[QOPSPObserve(observer, target, keypath, QOPKVOPolicyInitial | QOPKVOPolicyAlways) update:^(id observer, id updatedValue) {
+    NSLog(@"first exe and always exe");
+}];
+```
 
 ## 安装
 
