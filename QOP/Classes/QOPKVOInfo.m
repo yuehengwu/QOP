@@ -12,10 +12,25 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        _options = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
+        _policy = QOPKVOPolicyNew;
         _isUnObserve = NO;
     }
     return self;
+}
+
+- (NSKeyValueObservingOptions)parsePolicyToKVOOptions {
+    
+    NSKeyValueObservingOptions options = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
+    if ((_policy & QOPKVOPolicyNew) || (_policy & QOPKVOPolicyAlways)) {
+        options = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
+    }
+    if (_policy & QOPKVOPolicyInitial) {
+        options = options | NSKeyValueObservingOptionInitial;
+    }
+    if (_policy & QOPKVOPolicyPrior) {
+        options = options | NSKeyValueObservingOptionPrior;
+    }
+    return options;
 }
 
 - (void)dealloc {

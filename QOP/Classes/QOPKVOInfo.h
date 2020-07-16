@@ -7,18 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "QOPInterface.h"
 
-@interface QOPKVOInfo : NSObject 
+
+
+@interface QOPKVOInfo<__covariant ObjectType> : NSObject
 
 @property (nonatomic, assign) BOOL isUnObserve;
 
-@property (nonatomic, weak) id observer;
+@property (nonatomic, weak) ObjectType observer;
 
 @property (nonatomic, copy) NSString *keyPath;
 
-@property (nonatomic, assign) NSKeyValueObservingOptions options;
+@property (nonatomic, assign) QOPKVOPolicy policy;
 
 @property (nonatomic, copy) void(^updateBlock)(id observer, id updatedValue);
+
+@property (nonatomic, assign, readonly, getter=parsePolicyToKVOOptions) NSKeyValueObservingOptions options;
 
 @end
 

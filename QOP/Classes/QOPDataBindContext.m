@@ -101,13 +101,13 @@
     };
 }
 
-- (KVOOptionsContextBlock)options {
+- (KVOPolicyContextBlock)policy {
     
     NSParameterAssert(_tempInfo.observer);
     
-    return ^QOPDataBindContext *(NSKeyValueObservingOptions options) {
+    return ^QOPDataBindContext *(QOPKVOPolicy policy) {
       
-        self.tempInfo.options = options;
+        self.tempInfo.policy = policy;
         
         [self.map qop_safeAdd:self.tempInfo];
         

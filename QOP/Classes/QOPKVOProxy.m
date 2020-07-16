@@ -34,12 +34,25 @@
         @strongify(self);
         id oldValue = change[NSKeyValueChangeOldKey];
         id newValue = change[NSKeyValueChangeNewKey];
+        newValue = newValue == NSNull.null ? nil : newValue; // fix crash if newValue is NSNull
         
-        if (![oldValue isEqual:newValue]){
-            newValue = newValue == NSNull.null ? nil : newValue; // fix crash if newValue is NSNull
+        // call back delegate block
+        typedef void (^Execute)(void);
+        Execute callback = ^{
             if ([self.context respondsToSelector:@selector(qop_observer:keyPath:oldValue:updatedValue:)]) {
                 [self.context qop_observer:object keyPath:info.keyPath oldValue:oldValue updatedValue:newValue];
             }
+        };
+        
+        if (info.policy & QOPKVOPolicyNew){
+            // if no changed, return
+            if ([oldValue isEqual:newValue]) {
+                return;
+            }
+            callback();
+            
+        }else {
+            callback();
         }
     }];
 }

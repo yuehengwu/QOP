@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "QOPDataBinding.h"
+#import "QOPInterface.h"
 #import "QOPKVOInfo.h"
 
 @class QOPDataBindContext;

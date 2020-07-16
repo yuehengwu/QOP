@@ -11,33 +11,33 @@
 #import <extobjc/EXTobjc.h>
 
 
-
-#define _QOPObserve(TARGET,KEYPATH,OPTIONS) \
+#define _QOPObserve(OBJC,TARGET,KEYPATH,POLICY) \
 ({\
-TARGET.qop.bind(TARGET).value(@keypath(TARGET,KEYPATH)).options(OPTIONS); \
+OBJC.qop.bind(TARGET).value(@keypath(TARGET,KEYPATH)).policy(POLICY); \
 })
 
-#define _QOPUnObserve(TARGET,KEYPATH) \
+#define _QOPUnObserve(OBJC,TARGET,KEYPATH) \
 ({ \
-TARGET.qop.unbind(TARGET).value(@keypath(TARGET,KEYPATH)); \
+OBJC.qop.unbind(TARGET).value(@keypath(TARGET,KEYPATH)); \
 })
 
-#define QOPObserve(TARGET, KEYPATH) _QOPObserve(TARGET, KEYPATH, (NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld))
+/// specify target / keypath
+#define QOPObserve(TARGET, KEYPATH) _QOPObserve(TARGET,TARGET,KEYPATH,QOPKVOPolicyNew)
 
-#define QOPUNObserve(TARGET, KEYPATH) _QOPUnObserve(TARGET,KEYPATH)
+/// specify observer / target / keypath
+#define QOPSObserve(OBJC,TARGET,KEYPATH) _QOPObserve(OBJC,TARGET,KEYPATH,QOPKVOPolicyNew)
 
-//#if __clang__ && (__clang_major__ >= 8)
-//#define QOPObserve(TARGET, KEYPATH) _QOPObserve(TARGET, KEYPATH, (NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld))
-//#else
-//
-//#define QOPObserve(TARGET, KEYPATH) \
-//({ \
-//_Pragma("clang diagnostic push") \
-//_Pragma("clang diagnostic ignored \"-Wreceiver-is-weak\"") \
-//_QOPObserve(TARGET, KEYPATH,(NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld)) \
-//_Pragma("clang diagnostic pop") \
-//})
-//#endif
+/// specify observer / target / keypath / policy
+#define QOPSPObserve(OBJC,TARGET,KEYPATH,QOPKVOPolicy) \
+_QOPObserve(OBJC,TARGET,KEYPATH,QOPKVOPolicy)
+
+/// unobserve with target / keypath
+#define QOPUNObserve(TARGET, KEYPATH) _QOPUnObserve(TARGET,TARGET,KEYPATH)
+
+/// unobserve with observer / target / keypath
+#define QOPSUNObserve(OBJC,TARGET,KEYPATH) \
+_QOPUnObserve(OBJC,TARGET,KEYPATH) \
+
 
 @interface NSObject (QOP)
 

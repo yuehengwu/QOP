@@ -13,7 +13,7 @@
 #import "NSObject+QOP.h"
 #import "QOP.h"
 #import "QOPDataBindContext.h"
-#import "QOPDataBinding.h"
+#import "QOPInterface.h"
 #import "QOPKVOInfo.h"
 #import "QOPKVOProxy.h"
 

@@ -56,6 +56,21 @@
         ws.bindLabel.text = updatedValue;
     }];
     
+    // specify observer viewController to observe info-model's name
+    [QOPSPObserve(self, self.info, name, QOPKVOPolicyNew) update:^(id observer, id updatedValue) {
+        NSLog(@"only exe if value is changed ");
+    }];
+    
+    // specify observer bindLabel to observe info-model's name
+    [QOPSPObserve(self.bindLabel, self.info, name, QOPKVOPolicyInitial | QOPKVOPolicyAlways) update:^(id observer, id updatedValue) {
+        NSLog(@"first exe and always exe");
+    }];
+    
+    // remove one of observers, specify viewController observer
+    // the other observer will keep observing
+    QOPSUNObserve(self, _info, name);
+    
+    self.info.name = @"xxx";
 }
 
 - (IBAction)obseAction:(UIButton *)sender {
