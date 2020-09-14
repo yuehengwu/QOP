@@ -7,220 +7,223 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034E9CC5A69B82E74405B91BAC60DD79 /* extobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A7334E2B7890CE78C7DA407836BDC4 /* extobjc.framework */; };
-		0446DD3F35095540B8A61CF0E6F6EEAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
-		0595FC32A02F7EC8DA27631CBA12AA08 /* QOPKVOInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A4937D1C70D002865AFA2DB7F3674C /* QOPKVOInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AE9E63AAFE3AD703E0A788F11093A69 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB45ECD147AC07701C7E218B8936BAD /* EXTADT.m */; };
-		0D750EA32DA4718D31A011F6E54A0392 /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13702CA92362BB359B7492C2FC0380 /* NSInvocation+EXT.m */; };
-		0EB3BE8D4C870023AF1D8D639A71B216 /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4D5CACF04BCB83EF662060C71E10DF /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19D62B5850DBBC1868A55E502FE22589 /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDB7DC730058D719D1EED1F4435F866 /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A09A36C7ED2126FE226AB9D55D2EEE6 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = E71D4BE2C331F3EC014720BA13E12DE7 /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AF6FE05DD47AB80C7ADA05145F12D56 /* QOPInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 3325EAD39B711D9138076C20739761B9 /* QOPInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F6F69A31F75929F0B9861D87DEDFC1A /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0F0B67B0D2737B08DE97D8B94DA37F /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		322EBA0827FEC835A79EC54016D02152 /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1A58D7B4D352EED9C4EE378A9903B8 /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A98193608074193DD2972AB88C7295A /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BD2129FA79ACE627D7DFE785DB8913 /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EE97249726959AB16CE703BF90C7809 /* Pods-QOP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A3AD2601FECD1EB7C3189674764C41 /* Pods-QOP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		452AD2BD79E988DB9E1CF36BB2CE41E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
-		4558B5AB0A23F53E208268BF16C1672E /* QOPKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 474C012BCFCE04BBCD3C3D3125CF79DC /* QOPKVOProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		467E78685DC0132097072C075A6021E8 /* QOP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBF55F90A01FD9D11BD02EC2C79CC04 /* QOP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FA333B819A7AFC877BEE6C22502DE88 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B0D05ADD6914CC81D8357AB408CBA7 /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64FA2D0A4102AEB3FAD491CC4F040080 /* extobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BDC00D100F769466F95B776252998 /* extobjc-dummy.m */; };
-		694E0132A4F0A4D3A1247DEE371969CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
-		6974D2067969500EB8B5D0BA12505B2F /* QOP.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5631DB3E1CF5DAA4E73B6F1ACA791F /* QOP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CF1B6554B90B8F76D3D9189FB2D38D3 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 711AF3D356FF1CC3A795100344FCD0F4 /* EXTScope.m */; };
-		6E9DFDADC6C62F77462A10E5F9A5C2A1 /* QOP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E31648C4E9BAB5E2325F787C684184E4 /* QOP-dummy.m */; };
-		7099E401F820E06E5FE0B7487160B49E /* EXTobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B6AF691F4039B8C67648A6F4F2E46942 /* EXTobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A2B460366AE806A610C9B90C64B797 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = D63992584B1AF65DA594547166A0D200 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77B388C3888A76E091FB0538ED888D5F /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 8824ADFACACFA6D838F3CDBD43F0D248 /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EE77765AB8D5070D254B0176342E8A6 /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9C93C28541917D8B20F19AABB2AE75 /* EXTCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80500CC702A4A64A57DF39223B3B6014 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C94D19D6E1AF4A9878B2624ADCCA3 /* EXTNil.m */; };
-		80C51CF34EDED1E7AD7E1E8B9453C69C /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BC30A26B2FE6BFED1C002BD66E792B /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01EADBECEE61B23F8C560273AFF5ECF1 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 447B74FC65093367791AE677A433C884 /* NSMethodSignature+EXT.m */; };
+		09515BD30CCDE6EBF394C0EB29158FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
+		13A155A515E62983AA34962A3E975FC1 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA059984D63AA6E7383BC637892769B /* EXTADT.m */; };
+		16403895E8999185EA6BF89F2FD2367E /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8E203915391801F91F640EAC5252DF /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D62B5850DBBC1868A55E502FE22589 /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE1483905D31CA307C2C797F704168A /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A09A36C7ED2126FE226AB9D55D2EEE6 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC5F68E9A4F249B0C073D24453F0BA5 /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CC79817AA964D3712E8F189216383C2 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1DB4B8F98C952E080D5F63554BE2CA /* EXTNil.m */; };
+		1F9AF25243DD0B71A9D50330B3D8C799 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D80D1FF4D19302AF537084DC20C7213 /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22950480FED4927B4C7C405092BDE21A /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 133A6798802D2FFE73B32AD313E33537 /* EXTSafeCategory.m */; };
+		2340F4212861CC9F4AA3F4B59A057035 /* extobjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3282861A57A211FD230281CA454431 /* extobjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D85D2E4A68B2E7E54DBFFFFC5B87B0F /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583225252CCF239ECFD1BB03E4C2532 /* EXTRuntimeExtensions.m */; };
+		36FE4D7514470D1ABF599031A1860350 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C94D677EC2A41AAAA89BE3C754811E /* EXTSelectorChecking.m */; };
+		3A2C4D04680176B45EEC827ACE3E667B /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = D267B50FAA61EF64C3FC07E3541F774F /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411343C29EE9FFB1CE2259CBBBF6ABC9 /* EXTobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C736DA6B21F64854E1304D7500A01 /* EXTobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B485129974DA7B66BA5B11B2E379B34 /* extobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E5C0A3F91466F91A9587B88B59D7FC /* extobjc-dummy.m */; };
+		4DC983A98EEB3A49FC018F54844BB6E8 /* QOPInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E5956831E9F5DA3AE865B3AACCDCEA /* QOPInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50FC61CB4C5209C48879691C9A58C2A7 /* QOPKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B8F00088E6716E30B9F0713B7357 /* QOPKVOProxy.m */; };
+		514AC300D90F59B60BB500DBF0F71589 /* Pods-QOP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02A05987B2E25A917CDA6582CD54DA9 /* Pods-QOP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516148D27F8239766354DDD5E9B37058 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7562B7B0DDFD494FBD701A51AA3C1F /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58DC3AFCEE3558C2B055C6721DB5318F /* QOP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C9D460550DDAC2A47C9BF4A5DCCC4 /* QOP-dummy.m */; };
+		5A7C421C1DCC8CFE404C9648728B0D68 /* QOPKVOInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A455E31885E1CB43B062B8ED1C5DC700 /* QOPKVOInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E43D7A10385168E8CAB5CDA428AF1E3 /* QOPDataBindContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F0111A03637868396D0B3AFBD14661 /* QOPDataBindContext.m */; };
+		61C1D38E5CDEECB120BFC0BD5DDA8D9A /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = D788E77F14B5328529F5D7F5C8E465F3 /* EXTScope.m */; };
+		62441E831367FAB9DC6582D576B5042D /* extobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A7334E2B7890CE78C7DA407836BDC4 /* extobjc.framework */; };
+		6416B6E5D342B08F1DBAE2833EBC6F35 /* QOP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C528F3B8EA9C45D40DD5AAE1595C69 /* QOP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		652AC234FB781CCB4A70C318DF90F743 /* QOPDataBindContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 920006C013F86A0C947CAF40C05BC1BF /* QOPDataBindContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6809FA04DB3A10DE8560DB1624A7F555 /* Pods-QOP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 089EB2CE323D186777B37670B64AF02D /* Pods-QOP_Tests-dummy.m */; };
+		6B8EBA52C995AECB2B2EA2EA1872127A /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E0FEE0D162BDEDE5250F5EA0180B47 /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F7C785FA9922F5C236C0B3DB55CDDB9 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D69D45A4B75FFA95270B06388C73DC /* EXTConcreteProtocol.m */; };
+		74730A8E549472F0427175084A884A55 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 62680E7175976F4876A78F3F4E9A8BB3 /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A2B460366AE806A610C9B90C64B797 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = F234EBEDE4B0BE1654EF7AB1C6334DB6 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80D7AAAD0D98D85D3DA488EA61E2F7FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
-		82DC6B69B21DF88F0A3AA4ED7B91895A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A451A69EC66A468A33186ECD04D52E67 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		831AC9221FC25A41F64406E782F81728 /* QOPDataBindContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 45144D5310A04ECCD0E8C27266CC6B97 /* QOPDataBindContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		849D172BF531101DE66D5B3CA3A42441 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDECFA06DEEA1BC647A55193CF313C2 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		889E2157616BF0844E55BCDC2C30A278 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E2B5DC42C2EAA88B597485116BB657 /* NSObject+FBKVOController.m */; };
-		8EE50CA49BDB3CC47A65D143D798AA72 /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE98106D649EAA09CF92DFC4F1137DE /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93699C48989FDE6F0C709A415E39123B /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD30CA985A92A209DD18F9E5D0A8CF6 /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9670C11FE884391249C5154C3E319CDF /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7BC98C46ED738213DE16040CAFDCF0 /* FBKVOController.m */; };
-		9A6486F8AC107887650975972C410216 /* Pods-QOP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 089EB2CE323D186777B37670B64AF02D /* Pods-QOP_Tests-dummy.m */; };
-		9FC669E934294DB1E5861DC2BFB76DAE /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A39C4F562AEEFD78B7B959FBFE0875 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A60050F7085E17E0E3E8D970A47F88AC /* QOPKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0C93A7F73CDAD9969B80B76FED448 /* QOPKVOProxy.m */; };
-		AB8C349C46978DF528A142C1C0959039 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF680F1091EB6B5B2CCE8146FD4C9BF /* KVOController-dummy.m */; };
-		B1D0F2E9F69FF1B775D9D492F49D3C23 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 720D3E7C493D63E56CA3DB56A48B6ACD /* EXTRuntimeExtensions.m */; };
-		C327307ECD3F0073B6EB3F70B55FF013 /* NSObject+QOP.h in Headers */ = {isa = PBXBuildFile; fileRef = F079FA890D646999BACC84B79D76D4BA /* NSObject+QOP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBB2079F2FAC9DFB6B71DA5E14CD1ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
-		CCBFCD97714DA3D14F271378E0B51F1C /* Pods-QOP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02A05987B2E25A917CDA6582CD54DA9 /* Pods-QOP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD190627D6AEAD9617352559548480CE /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 162CF40E514CE91B0D166607E95DBB17 /* NSMethodSignature+EXT.m */; };
-		D12E68F072996203AF29F5D77799D1C0 /* extobjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AA2EE39B900E539DCD0A33CDAE1FE2 /* extobjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D64AFDFDFAC1B97F2B6A8548B8E74D39 /* QOPDataBindContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B34AAAE6AC8DD74C46AC2CB1DFC6D182 /* QOPDataBindContext.m */; };
-		D6C066DA47E537B83D9C6756E2401956 /* NSObject+QOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C83630161B14A1CF3EDC617D0C3F4EC1 /* NSObject+QOP.m */; };
-		DAAC34520B84EE09FBDA354FB498D358 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = F64086162057FF70FC4E6F56FA6744F3 /* EXTSelectorChecking.m */; };
-		E0BA14D6574A472C5156730FE853887E /* QOPKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 14360FECC7FED67AF34BA6269FED67F5 /* QOPKVOInfo.m */; };
-		ED814E97D5EB6E5F06998AE40C7CAD7E /* Pods-QOP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E21AF0CCEE67C43507ED908F43114BA6 /* Pods-QOP_Example-dummy.m */; };
-		F9C7C19DD0A319F0E9043D09306EEC0C /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8959DDD702CCBE3FDDFE3D7C8B79BA /* EXTConcreteProtocol.m */; };
-		FADB2539D88AFF3D53A87AC805C35B4F /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EC17D3325B64EE4EB5A6F1355DCD22 /* KVOController.framework */; };
-		FB40386124CCE9185DA43EE6BBD603F1 /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B6CC70C396F870B566E13C09075EA7 /* EXTSafeCategory.m */; };
-		FE6A040E9793D09D5F1C50EE2497A815 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A654D5B1AD1DE1F00F720E61F64D729F /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846DF4512E210C4F128BEF8066DFD02C /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BA0DD5887356F78BE8A2C185ADD104 /* EXTCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C9E2A1BB64987418C3A6A2D710A9FF /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9ABB9548478E75BD17EA63D413380F /* NSInvocation+EXT.m */; };
+		889E2157616BF0844E55BCDC2C30A278 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4B9A1BD5473DDFA47F1BFDFECB8A23 /* NSObject+FBKVOController.m */; };
+		8DD277C9DAA5D67227BF9254A8E5D790 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CBF60F1D41AA6551C044AC6DEC3805 /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE50CA49BDB3CC47A65D143D798AA72 /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F9FF746CAC1CEEB708D399BDB5D10B /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9670C11FE884391249C5154C3E319CDF /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EAAD229739E215AED95FDA635EC3C9 /* FBKVOController.m */; };
+		97FF803432B1FFBA7CC05D81FF00E595 /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 12770D190160B6EDE7879F17D31718D8 /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		981A65DDDAD084F47F69D87770DE062F /* Pods-QOP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A3AD2601FECD1EB7C3189674764C41 /* Pods-QOP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BE86062B3AEDFCD28964D0B831C078 /* QOPKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9F7505FFB00072A97B63886B66C956 /* QOPKVOProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8C349C46978DF528A142C1C0959039 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF448D468E31DFF4CBDF06D7564EA5EF /* KVOController-dummy.m */; };
+		AF27847A09A0C9B3A08B04C670FF119E /* QOPKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A6EB8890CFB013CC825468DC53080 /* QOPKVOInfo.m */; };
+		B07DAFC7C696BF73011D2C689DFB584B /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 403973869E1E91CE89AFEB6AE0D8118D /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C83E637E39CC30286905752B02342AA9 /* Pods-QOP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E21AF0CCEE67C43507ED908F43114BA6 /* Pods-QOP_Example-dummy.m */; };
+		CBA55C64979F07CD415529E3F502AAAD /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 186CCEC811E1F642C7683B378B6B42B4 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB85DCA492F9328D62915BE3867044C /* NSObject+QOP.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE18521717267FC144EF88C8DEAAF0F /* NSObject+QOP.m */; };
+		CF66DAD8FD6B0A453C66CD4A0A492C55 /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0A69247D06D6152F1FB0C5303377C0 /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09E5F7D34877597038C8AAE0CA25339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
+		E4C18DED28D57D1E9A5242CF1BFAA515 /* QOP.h in Headers */ = {isa = PBXBuildFile; fileRef = 428CCCC9318A412CBCAAAA5FF6D0FD39 /* QOP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB1564970D279880A0F906A11DD3FA5F /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EC17D3325B64EE4EB5A6F1355DCD22 /* KVOController.framework */; };
+		EDC62062E5174EA699F61936A284507B /* NSObject+QOP.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6090220016E219FDDCDE6AF840D19F /* NSObject+QOP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2063C11DC6F35F74886F51B034316E /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5EB554EF24AC997C8DB46B18EB0723 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB80EF0FCFB1D0CEFC0CE6B8DC79B359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
+		FD59075D02759675A0DF865BFB058228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		257AFFE60E6890EB90E47B2C19785D48 /* PBXContainerItemProxy */ = {
+		076F68816D589328994A415F5767448D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
+			remoteInfo = KVOController;
+		};
+		2F0FB7A5314786570A69DF0C034E739B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75BED9EC30B6C5F67A006685B428CA1;
+			remoteInfo = extobjc;
+		};
+		83490A5AB15DD52EB3B34C167EE3D054 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6EE5ED13FCD2BA3B5D9D85EDC7BD62F7;
 			remoteInfo = QOP;
 		};
-		2F51996D44E3E029B9E44F8B947B8ED6 /* PBXContainerItemProxy */ = {
+		DDEDDF49C8E5F94E81C94756CD96EE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
+			remoteInfo = KVOController;
+		};
+		EA280BC484E56C680B0424CF2C284FB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 983668E9E7610AAB9ACDBD51ED35A3FB;
 			remoteInfo = "Pods-QOP_Example";
 		};
-		49E4B79F873ED55437D41F081D2ED6EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
-			remoteInfo = KVOController;
-		};
-		5103E30395FAB1BDA1DA6B8AA15F96B8 /* PBXContainerItemProxy */ = {
+		F778F71B91111A41EDC6F1F1BF8CEAD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F75BED9EC30B6C5F67A006685B428CA1;
 			remoteInfo = extobjc;
-		};
-		A25BF1825C7700F309FFAB35EA781B9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F75BED9EC30B6C5F67A006685B428CA1;
-			remoteInfo = extobjc;
-		};
-		DD9923A28F125B4440A015C7CF683C2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
-			remoteInfo = KVOController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F9FF746CAC1CEEB708D399BDB5D10B /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
+		04BA0DD5887356F78BE8A2C185ADD104 /* EXTCoroutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTCoroutine.h; path = Classes/Modules/EXTCoroutine.h; sourceTree = "<group>"; };
 		05B22997813D3B3450A82D7FB50C9539 /* QOP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QOP.framework; path = QOP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		085AC925760011863D96584391DF77B2 /* Pods-QOP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QOP_Example.modulemap"; sourceTree = "<group>"; };
 		089EB2CE323D186777B37670B64AF02D /* Pods-QOP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QOP_Tests-dummy.m"; sourceTree = "<group>"; };
-		0AC3EE5558035EEA2A16B8142D12AFA9 /* QOP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QOP-Info.plist"; sourceTree = "<group>"; };
-		14360FECC7FED67AF34BA6269FED67F5 /* QOPKVOInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QOPKVOInfo.m; path = QOP/Classes/QOPKVOInfo.m; sourceTree = "<group>"; };
+		0CDD8CD6A3B6BDB8D7AEB436D69FADCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		12770D190160B6EDE7879F17D31718D8 /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = Classes/Modules/EXTNil.h; sourceTree = "<group>"; };
+		133A6798802D2FFE73B32AD313E33537 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = Classes/Modules/EXTSafeCategory.m; sourceTree = "<group>"; };
 		14A7334E2B7890CE78C7DA407836BDC4 /* extobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = extobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15DA575407195219B265EE3F0E320EF1 /* QOP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QOP.xcconfig; sourceTree = "<group>"; };
-		162CF40E514CE91B0D166607E95DBB17 /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "Classes/Extensions/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
-		1AD30CA985A92A209DD18F9E5D0A8CF6 /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = Classes/Modules/EXTConcreteProtocol.h; sourceTree = "<group>"; };
-		1B947CED34DF7E14A6E4173D7929D9F5 /* extobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = extobjc.xcconfig; sourceTree = "<group>"; };
-		1D13702CA92362BB359B7492C2FC0380 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "Classes/Extensions/NSInvocation+EXT.m"; sourceTree = "<group>"; };
-		204C94D19D6E1AF4A9878B2624ADCCA3 /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = Classes/Modules/EXTNil.m; sourceTree = "<group>"; };
-		225B1950A53DD6EA9DD74F02D693512D /* extobjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = extobjc.modulemap; sourceTree = "<group>"; };
-		2E4D5CACF04BCB83EF662060C71E10DF /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = Classes/Modules/EXTNil.h; sourceTree = "<group>"; };
-		3092CEDC305AB18DEE9242FFBE468422 /* extobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "extobjc-prefix.pch"; sourceTree = "<group>"; };
-		3325EAD39B711D9138076C20739761B9 /* QOPInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPInterface.h; path = QOP/Classes/QOPInterface.h; sourceTree = "<group>"; };
+		16F4F3F90304445956995726E2C52FE9 /* QOP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QOP-Info.plist"; sourceTree = "<group>"; };
+		186CCEC811E1F642C7683B378B6B42B4 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Classes/metamacros.h; sourceTree = "<group>"; };
+		1A9F7505FFB00072A97B63886B66C956 /* QOPKVOProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPKVOProxy.h; path = QOP/Classes/QOPKVOProxy.h; sourceTree = "<group>"; };
+		21538A7B874F99DD97DE93AF2480A376 /* KVOController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.debug.xcconfig; sourceTree = "<group>"; };
+		347C736DA6B21F64854E1304D7500A01 /* EXTobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTobjc.h; path = Classes/EXTobjc.h; sourceTree = "<group>"; };
 		36595416A76E47512B0A536D8AFA2FC0 /* Pods-QOP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QOP_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		367B54DD87410BC63A9431F0C3B6875B /* extobjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = extobjc.debug.xcconfig; sourceTree = "<group>"; };
 		399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A5631DB3E1CF5DAA4E73B6F1ACA791F /* QOP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOP.h; path = QOP/Classes/QOP.h; sourceTree = "<group>"; };
-		45144D5310A04ECCD0E8C27266CC6B97 /* QOPDataBindContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPDataBindContext.h; path = QOP/Classes/QOPDataBindContext.h; sourceTree = "<group>"; };
-		474C012BCFCE04BBCD3C3D3125CF79DC /* QOPKVOProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPKVOProxy.h; path = QOP/Classes/QOPKVOProxy.h; sourceTree = "<group>"; };
+		3D80D1FF4D19302AF537084DC20C7213 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = Classes/Modules/EXTSafeCategory.h; sourceTree = "<group>"; };
+		403973869E1E91CE89AFEB6AE0D8118D /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "Classes/Extensions/NSInvocation+EXT.h"; sourceTree = "<group>"; };
+		408424CC3A85DE56B51751AE01E5489A /* extobjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = extobjc.modulemap; sourceTree = "<group>"; };
+		40D9626D06A74CBF1DC11B9E58F6FC50 /* KVOController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.release.xcconfig; sourceTree = "<group>"; };
+		417093A79B9F13A1A81506C0E7E191CB /* QOP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QOP.modulemap; sourceTree = "<group>"; };
+		428CCCC9318A412CBCAAAA5FF6D0FD39 /* QOP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOP.h; path = QOP/Classes/QOP.h; sourceTree = "<group>"; };
+		447B74FC65093367791AE677A433C884 /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "Classes/Extensions/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
+		44C94D677EC2A41AAAA89BE3C754811E /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = Classes/Modules/EXTSelectorChecking.m; sourceTree = "<group>"; };
+		4583225252CCF239ECFD1BB03E4C2532 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Classes/Modules/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		47EC17D3325B64EE4EB5A6F1355DCD22 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49F69EEBA1C80D8B573B6F1F56FD9152 /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
-		4C1A58D7B4D352EED9C4EE378A9903B8 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "Classes/Extensions/NSInvocation+EXT.h"; sourceTree = "<group>"; };
-		50BC30A26B2FE6BFED1C002BD66E792B /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Classes/Modules/EXTScope.h; sourceTree = "<group>"; };
-		5B9C93C28541917D8B20F19AABB2AE75 /* EXTCoroutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTCoroutine.h; path = Classes/Modules/EXTCoroutine.h; sourceTree = "<group>"; };
-		5D2CF02AC0AD2570E7104BE9792332E3 /* extobjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "extobjc-Info.plist"; sourceTree = "<group>"; };
-		5DF077FFB15D48092309910125BADBDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5E7BC98C46ED738213DE16040CAFDCF0 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
-		5FF0C93A7F73CDAD9969B80B76FED448 /* QOPKVOProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QOPKVOProxy.m; path = QOP/Classes/QOPKVOProxy.m; sourceTree = "<group>"; };
-		6764625BE306F6C8392E985A032F9703 /* QOP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QOP-prefix.pch"; sourceTree = "<group>"; };
+		4E2716E0C7F852BADD8B098EEFA86302 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVOController.modulemap; sourceTree = "<group>"; };
+		59C528F3B8EA9C45D40DD5AAE1595C69 /* QOP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QOP-umbrella.h"; sourceTree = "<group>"; };
+		62680E7175976F4876A78F3F4E9A8BB3 /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "Classes/Extensions/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
 		6A520D650F94394BE9E9B1007CD2C9D7 /* Pods-QOP_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QOP_Tests.modulemap"; sourceTree = "<group>"; };
-		6B0F0B67B0D2737B08DE97D8B94DA37F /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = Classes/Modules/EXTADT.h; sourceTree = "<group>"; };
 		6BCC32A19BF009AD5978236CF2D499D3 /* Pods-QOP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QOP_Tests-Info.plist"; sourceTree = "<group>"; };
-		6C8959DDD702CCBE3FDDFE3D7C8B79BA /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = Classes/Modules/EXTConcreteProtocol.m; sourceTree = "<group>"; };
-		70AA2EE39B900E539DCD0A33CDAE1FE2 /* extobjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "extobjc-umbrella.h"; sourceTree = "<group>"; };
-		711AF3D356FF1CC3A795100344FCD0F4 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Classes/Modules/EXTScope.m; sourceTree = "<group>"; };
-		720D3E7C493D63E56CA3DB56A48B6ACD /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Classes/Modules/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
-		757BDC00D100F769466F95B776252998 /* extobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "extobjc-dummy.m"; sourceTree = "<group>"; };
+		6D6090220016E219FDDCDE6AF840D19F /* NSObject+QOP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+QOP.h"; path = "QOP/Classes/NSObject+QOP.h"; sourceTree = "<group>"; };
+		726E1E18DEA5FCC5055313A2DDA7C52F /* KVOController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVOController-Info.plist"; sourceTree = "<group>"; };
+		7300E36D741B50A293EE8A9A4CE10012 /* QOP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QOP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AD0A04606A8DCA8C52E61DF374B74A3 /* QOP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QOP.release.xcconfig; sourceTree = "<group>"; };
+		7E0A69247D06D6152F1FB0C5303377C0 /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = Classes/Modules/EXTADT.h; sourceTree = "<group>"; };
+		7E1DB4B8F98C952E080D5F63554BE2CA /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = Classes/Modules/EXTNil.m; sourceTree = "<group>"; };
 		7EF08BF1DFB6630D55A73FFB42BF9E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FBF55F90A01FD9D11BD02EC2C79CC04 /* QOP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QOP-umbrella.h"; sourceTree = "<group>"; };
 		8463DAC5193B41717763AAE4B571A6E2 /* Pods-QOP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QOP_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8668483EEE9CC78EE9BD1DE1EEF3C0A6 /* KVOController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVOController-Info.plist"; sourceTree = "<group>"; };
-		8824ADFACACFA6D838F3CDBD43F0D248 /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "Classes/Extensions/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
-		88E3A2B72A36FB67116728DB7F4194DC /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVOController.modulemap; sourceTree = "<group>"; };
+		8E5C9D460550DDAC2A47C9BF4A5DCCC4 /* QOP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QOP-dummy.m"; sourceTree = "<group>"; };
+		91E5C0A3F91466F91A9587B88B59D7FC /* extobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "extobjc-dummy.m"; sourceTree = "<group>"; };
+		920006C013F86A0C947CAF40C05BC1BF /* QOPDataBindContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPDataBindContext.h; path = QOP/Classes/QOPDataBindContext.h; sourceTree = "<group>"; };
+		94F0111A03637868396D0B3AFBD14661 /* QOPDataBindContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QOPDataBindContext.m; path = QOP/Classes/QOPDataBindContext.m; sourceTree = "<group>"; };
+		962244C9A3E701041F77E7B3AADE4459 /* extobjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = extobjc.release.xcconfig; sourceTree = "<group>"; };
 		9710866AD5698F30D6659AF601D7E3F2 /* Pods-QOP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QOP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		98B6CC70C396F870B566E13C09075EA7 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = Classes/Modules/EXTSafeCategory.m; sourceTree = "<group>"; };
 		9AA71142396A2474EFC4BA7D721F5015 /* Pods-QOP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QOP_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9B7562B7B0DDFD494FBD701A51AA3C1F /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Classes/Modules/EXTScope.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E607BB8EE7618458C02759D2D058E2D /* Pods-QOP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QOP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9EDB7DC730058D719D1EED1F4435F866 /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
+		A1F9B8F00088E6716E30B9F0713B7357 /* QOPKVOProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QOPKVOProxy.m; path = QOP/Classes/QOPKVOProxy.m; sourceTree = "<group>"; };
 		A2368A4BBABCC7AC30318B322DEBDDE4 /* Pods-QOP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QOP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A451A69EC66A468A33186ECD04D52E67 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Classes/metamacros.h; sourceTree = "<group>"; };
-		A654D5B1AD1DE1F00F720E61F64D729F /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = Classes/Modules/EXTSafeCategory.h; sourceTree = "<group>"; };
-		A7BD2129FA79ACE627D7DFE785DB8913 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = Classes/Modules/EXTSelectorChecking.h; sourceTree = "<group>"; };
-		A8D2AA2354428C5F21664268B78A0D4D /* QOP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QOP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A455E31885E1CB43B062B8ED1C5DC700 /* QOPKVOInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPKVOInfo.h; path = QOP/Classes/QOPKVOInfo.h; sourceTree = "<group>"; };
+		AAB16FB69A2B7329B1FC2E74ED9C6C7D /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		AB8E203915391801F91F640EAC5252DF /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Classes/Modules/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		AFD28A9D1FD1F270D3AC4143F68E52D1 /* Pods-QOP_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QOP_Example-Info.plist"; sourceTree = "<group>"; };
 		B10CBF20BF917312C0A688236DAE62D4 /* Pods-QOP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QOP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B34AAAE6AC8DD74C46AC2CB1DFC6D182 /* QOPDataBindContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QOPDataBindContext.m; path = QOP/Classes/QOPDataBindContext.m; sourceTree = "<group>"; };
-		B3ACA97786D09083DB13A53C38EAE9C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B510F413CCD82B283F8D6EDC719EDBC9 /* extobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = extobjc.framework; path = extobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B644508ED7D6426800AD66D078E2F9D8 /* Pods_QOP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QOP_Example.framework; path = "Pods-QOP_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6AF691F4039B8C67648A6F4F2E46942 /* EXTobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTobjc.h; path = Classes/EXTobjc.h; sourceTree = "<group>"; };
-		B9A4937D1C70D002865AFA2DB7F3674C /* QOPKVOInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPKVOInfo.h; path = QOP/Classes/QOPKVOInfo.h; sourceTree = "<group>"; };
-		BBCC0F6E53B3677CB649C07065B3BD8B /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
-		BDF680F1091EB6B5B2CCE8146FD4C9BF /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
-		C2A39C4F562AEEFD78B7B959FBFE0875 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Classes/Modules/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		BC4B9A1BD5473DDFA47F1BFDFECB8A23 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		BF1A6EB8890CFB013CC825468DC53080 /* QOPKVOInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QOPKVOInfo.m; path = QOP/Classes/QOPKVOInfo.m; sourceTree = "<group>"; };
+		BFC5F68E9A4F249B0C073D24453F0BA5 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		C497ABB71620A9DE414AE4462B14590E /* Pods-QOP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QOP_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C83630161B14A1CF3EDC617D0C3F4EC1 /* NSObject+QOP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QOP.m"; path = "QOP/Classes/NSObject+QOP.m"; sourceTree = "<group>"; };
-		CF229246233CBAA7A554544D703AD9CF /* QOP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QOP.modulemap; sourceTree = "<group>"; };
+		C5D69D45A4B75FFA95270B06388C73DC /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = Classes/Modules/EXTConcreteProtocol.m; sourceTree = "<group>"; };
+		CE330013DDD15AE542374627B51FF1FA /* extobjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "extobjc-Info.plist"; sourceTree = "<group>"; };
+		CF448D468E31DFF4CBDF06D7564EA5EF /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
 		D02A05987B2E25A917CDA6582CD54DA9 /* Pods-QOP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QOP_Example-umbrella.h"; sourceTree = "<group>"; };
-		D4B0D05ADD6914CC81D8357AB408CBA7 /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = Classes/Modules/EXTSynthesize.h; sourceTree = "<group>"; };
-		D63992584B1AF65DA594547166A0D200 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		D0E0FEE0D162BDEDE5250F5EA0180B47 /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = Classes/Modules/EXTConcreteProtocol.h; sourceTree = "<group>"; };
+		D1C7ABF38B44C97BD8DE15CE0C1E32F9 /* QOP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QOP.debug.xcconfig; sourceTree = "<group>"; };
+		D267B50FAA61EF64C3FC07E3541F774F /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = Classes/Modules/EXTSynthesize.h; sourceTree = "<group>"; };
+		D2B07666108374556C5190C8386D0F88 /* extobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "extobjc-prefix.pch"; sourceTree = "<group>"; };
+		D788E77F14B5328529F5D7F5C8E465F3 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Classes/Modules/EXTScope.m; sourceTree = "<group>"; };
 		D7B817B021B24300D3EF7ED94D4AF422 /* Pods_QOP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QOP_Tests.framework; path = "Pods-QOP_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDDECFA06DEEA1BC647A55193CF313C2 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Classes/Modules/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		DBE18521717267FC144EF88C8DEAAF0F /* NSObject+QOP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QOP.m"; path = "QOP/Classes/NSObject+QOP.m"; sourceTree = "<group>"; };
+		DD9ABB9548478E75BD17EA63D413380F /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "Classes/Extensions/NSInvocation+EXT.m"; sourceTree = "<group>"; };
+		E0CBF60F1D41AA6551C044AC6DEC3805 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = Classes/Modules/EXTSelectorChecking.h; sourceTree = "<group>"; };
 		E21AF0CCEE67C43507ED908F43114BA6 /* Pods-QOP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QOP_Example-dummy.m"; sourceTree = "<group>"; };
-		E31648C4E9BAB5E2325F787C684184E4 /* QOP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QOP-dummy.m"; sourceTree = "<group>"; };
 		E3A3AD2601FECD1EB7C3189674764C41 /* Pods-QOP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QOP_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E71D4BE2C331F3EC014720BA13E12DE7 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
-		EBB45ECD147AC07701C7E218B8936BAD /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = Classes/Modules/EXTADT.m; sourceTree = "<group>"; };
-		F079FA890D646999BACC84B79D76D4BA /* NSObject+QOP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+QOP.h"; path = "QOP/Classes/NSObject+QOP.h"; sourceTree = "<group>"; };
-		F64086162057FF70FC4E6F56FA6744F3 /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = Classes/Modules/EXTSelectorChecking.m; sourceTree = "<group>"; };
+		E7E5956831E9F5DA3AE865B3AACCDCEA /* QOPInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QOPInterface.h; path = QOP/Classes/QOPInterface.h; sourceTree = "<group>"; };
+		EA834711C4474F492C89C67190D77C8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EDACEEC9B83CD20E3130C27F34B7E3AF /* QOP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QOP-prefix.pch"; sourceTree = "<group>"; };
+		EE3282861A57A211FD230281CA454431 /* extobjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "extobjc-umbrella.h"; sourceTree = "<group>"; };
+		EFA059984D63AA6E7383BC637892769B /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = Classes/Modules/EXTADT.m; sourceTree = "<group>"; };
+		F234EBEDE4B0BE1654EF7AB1C6334DB6 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		F2EAAD229739E215AED95FDA635EC3C9 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
 		F9687F841F1B4179FEEAAB02C9AFA609 /* Pods-QOP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QOP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9E2B5DC42C2EAA88B597485116BB657 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
-		FCE98106D649EAA09CF92DFC4F1137DE /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
+		FD5EB554EF24AC997C8DB46B18EB0723 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Classes/Modules/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		FEE1483905D31CA307C2C797F704168A /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4429DDF31CE7A7E7683DDBAFBC29E583 /* Frameworks */ = {
+		3B65697123B6E7ADFA093CBA36DDE779 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034E9CC5A69B82E74405B91BAC60DD79 /* extobjc.framework in Frameworks */,
-				CBB2079F2FAC9DFB6B71DA5E14CD1ACC /* Foundation.framework in Frameworks */,
-				FADB2539D88AFF3D53A87AC805C35B4F /* KVOController.framework in Frameworks */,
+				E09E5F7D34877597038C8AAE0CA25339 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		954E3377FB0BC1C7765360B213701A96 /* Frameworks */ = {
+		4B22EC6398A400747FCC085CE715A465 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452AD2BD79E988DB9E1CF36BB2CE41E9 /* Foundation.framework in Frameworks */,
+				62441E831367FAB9DC6582D576B5042D /* extobjc.framework in Frameworks */,
+				09515BD30CCDE6EBF394C0EB29158FB1 /* Foundation.framework in Frameworks */,
+				EB1564970D279880A0F906A11DD3FA5F /* KVOController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A749674025DA2149B4C2B326826C2783 /* Frameworks */ = {
+		551C213D0CD9BF2F16826A207F2FB088 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0446DD3F35095540B8A61CF0E6F6EEAB /* Foundation.framework in Frameworks */,
+				FB80EF0FCFB1D0CEFC0CE6B8DC79B359 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,29 +235,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF0EA32E541D6B5F603E16BED4F4192B /* Frameworks */ = {
+		CCF7CC9007C225A01CA02FDD11581924 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694E0132A4F0A4D3A1247DEE371969CE /* Foundation.framework in Frameworks */,
+				FD59075D02759675A0DF865BFB058228 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03ACF86B43177EEC0B4F0D85817670A7 /* Support Files */ = {
+		0201F546903AB8BF549073BD74CBC7E1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88E3A2B72A36FB67116728DB7F4194DC /* KVOController.modulemap */,
-				BBCC0F6E53B3677CB649C07065B3BD8B /* KVOController.xcconfig */,
-				BDF680F1091EB6B5B2CCE8146FD4C9BF /* KVOController-dummy.m */,
-				8668483EEE9CC78EE9BD1DE1EEF3C0A6 /* KVOController-Info.plist */,
-				49F69EEBA1C80D8B573B6F1F56FD9152 /* KVOController-prefix.pch */,
-				9EDB7DC730058D719D1EED1F4435F866 /* KVOController-umbrella.h */,
+				408424CC3A85DE56B51751AE01E5489A /* extobjc.modulemap */,
+				91E5C0A3F91466F91A9587B88B59D7FC /* extobjc-dummy.m */,
+				CE330013DDD15AE542374627B51FF1FA /* extobjc-Info.plist */,
+				D2B07666108374556C5190C8386D0F88 /* extobjc-prefix.pch */,
+				EE3282861A57A211FD230281CA454431 /* extobjc-umbrella.h */,
+				367B54DD87410BC63A9431F0C3B6875B /* extobjc.debug.xcconfig */,
+				962244C9A3E701041F77E7B3AADE4459 /* extobjc.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KVOController";
+			path = "../Target Support Files/extobjc";
 			sourceTree = "<group>";
 		};
 		137EF05F482DA327BA860E9F44F7D071 /* Products */ = {
@@ -269,35 +273,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A709E7D1143A8AFCB41E4FDF116318F /* QOP */ = {
+		295B0896F7A55FBF8551E3BCE4425062 /* KVOController */ = {
 			isa = PBXGroup;
 			children = (
-				F079FA890D646999BACC84B79D76D4BA /* NSObject+QOP.h */,
-				C83630161B14A1CF3EDC617D0C3F4EC1 /* NSObject+QOP.m */,
-				3A5631DB3E1CF5DAA4E73B6F1ACA791F /* QOP.h */,
-				45144D5310A04ECCD0E8C27266CC6B97 /* QOPDataBindContext.h */,
-				B34AAAE6AC8DD74C46AC2CB1DFC6D182 /* QOPDataBindContext.m */,
-				3325EAD39B711D9138076C20739761B9 /* QOPInterface.h */,
-				B9A4937D1C70D002865AFA2DB7F3674C /* QOPKVOInfo.h */,
-				14360FECC7FED67AF34BA6269FED67F5 /* QOPKVOInfo.m */,
-				474C012BCFCE04BBCD3C3D3125CF79DC /* QOPKVOProxy.h */,
-				5FF0C93A7F73CDAD9969B80B76FED448 /* QOPKVOProxy.m */,
-				DD3A6BE46E7B64AD9680B0395D9E0BD8 /* Pod */,
-				BA57DB182782C3B11D2C8E30140CD858 /* Support Files */,
-			);
-			name = QOP;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2A7C21C031C6372555AF492ED9330F33 /* KVOController */ = {
-			isa = PBXGroup;
-			children = (
-				D63992584B1AF65DA594547166A0D200 /* FBKVOController.h */,
-				5E7BC98C46ED738213DE16040CAFDCF0 /* FBKVOController.m */,
-				FCE98106D649EAA09CF92DFC4F1137DE /* KVOController.h */,
-				E71D4BE2C331F3EC014720BA13E12DE7 /* NSObject+FBKVOController.h */,
-				F9E2B5DC42C2EAA88B597485116BB657 /* NSObject+FBKVOController.m */,
-				03ACF86B43177EEC0B4F0D85817670A7 /* Support Files */,
+				F234EBEDE4B0BE1654EF7AB1C6334DB6 /* FBKVOController.h */,
+				F2EAAD229739E215AED95FDA635EC3C9 /* FBKVOController.m */,
+				00F9FF746CAC1CEEB708D399BDB5D10B /* KVOController.h */,
+				BFC5F68E9A4F249B0C073D24453F0BA5 /* NSObject+FBKVOController.h */,
+				BC4B9A1BD5473DDFA47F1BFDFECB8A23 /* NSObject+FBKVOController.m */,
+				AEA14838E7527BC3D7CB1E91FE329E7C /* Support Files */,
 			);
 			name = KVOController;
 			path = KVOController;
@@ -306,10 +290,62 @@
 		436F8913D849A8EF6CC108CA095970AA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				837CD18C30ACF1CAD97C9E792FBBF4D7 /* extobjc */,
-				2A7C21C031C6372555AF492ED9330F33 /* KVOController */,
+				49B2F8EC9F4777190FF5815CE18EEE5F /* extobjc */,
+				295B0896F7A55FBF8551E3BCE4425062 /* KVOController */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		49B2F8EC9F4777190FF5815CE18EEE5F /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				7E0A69247D06D6152F1FB0C5303377C0 /* EXTADT.h */,
+				EFA059984D63AA6E7383BC637892769B /* EXTADT.m */,
+				D0E0FEE0D162BDEDE5250F5EA0180B47 /* EXTConcreteProtocol.h */,
+				C5D69D45A4B75FFA95270B06388C73DC /* EXTConcreteProtocol.m */,
+				04BA0DD5887356F78BE8A2C185ADD104 /* EXTCoroutine.h */,
+				FD5EB554EF24AC997C8DB46B18EB0723 /* EXTKeyPathCoding.h */,
+				12770D190160B6EDE7879F17D31718D8 /* EXTNil.h */,
+				7E1DB4B8F98C952E080D5F63554BE2CA /* EXTNil.m */,
+				347C736DA6B21F64854E1304D7500A01 /* EXTobjc.h */,
+				AB8E203915391801F91F640EAC5252DF /* EXTRuntimeExtensions.h */,
+				4583225252CCF239ECFD1BB03E4C2532 /* EXTRuntimeExtensions.m */,
+				3D80D1FF4D19302AF537084DC20C7213 /* EXTSafeCategory.h */,
+				133A6798802D2FFE73B32AD313E33537 /* EXTSafeCategory.m */,
+				9B7562B7B0DDFD494FBD701A51AA3C1F /* EXTScope.h */,
+				D788E77F14B5328529F5D7F5C8E465F3 /* EXTScope.m */,
+				E0CBF60F1D41AA6551C044AC6DEC3805 /* EXTSelectorChecking.h */,
+				44C94D677EC2A41AAAA89BE3C754811E /* EXTSelectorChecking.m */,
+				D267B50FAA61EF64C3FC07E3541F774F /* EXTSynthesize.h */,
+				186CCEC811E1F642C7683B378B6B42B4 /* metamacros.h */,
+				403973869E1E91CE89AFEB6AE0D8118D /* NSInvocation+EXT.h */,
+				DD9ABB9548478E75BD17EA63D413380F /* NSInvocation+EXT.m */,
+				62680E7175976F4876A78F3F4E9A8BB3 /* NSMethodSignature+EXT.h */,
+				447B74FC65093367791AE677A433C884 /* NSMethodSignature+EXT.m */,
+				0201F546903AB8BF549073BD74CBC7E1 /* Support Files */,
+			);
+			name = extobjc;
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		4AD3151B4F431F60B7647750AD2B56BE /* QOP */ = {
+			isa = PBXGroup;
+			children = (
+				6D6090220016E219FDDCDE6AF840D19F /* NSObject+QOP.h */,
+				DBE18521717267FC144EF88C8DEAAF0F /* NSObject+QOP.m */,
+				428CCCC9318A412CBCAAAA5FF6D0FD39 /* QOP.h */,
+				920006C013F86A0C947CAF40C05BC1BF /* QOPDataBindContext.h */,
+				94F0111A03637868396D0B3AFBD14661 /* QOPDataBindContext.m */,
+				E7E5956831E9F5DA3AE865B3AACCDCEA /* QOPInterface.h */,
+				A455E31885E1CB43B062B8ED1C5DC700 /* QOPKVOInfo.h */,
+				BF1A6EB8890CFB013CC825468DC53080 /* QOPKVOInfo.m */,
+				1A9F7505FFB00072A97B63886B66C956 /* QOPKVOProxy.h */,
+				A1F9B8F00088E6716E30B9F0713B7357 /* QOPKVOProxy.m */,
+				C23993607E45B65129009B456AB3723C /* Pod */,
+				602C61187C7C286B9E6FB699F390EC34 /* Support Files */,
+			);
+			name = QOP;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4F11EA91BCEC5C696DC056275CCB4FE3 /* iOS */ = {
@@ -329,6 +365,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		602C61187C7C286B9E6FB699F390EC34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				417093A79B9F13A1A81506C0E7E191CB /* QOP.modulemap */,
+				8E5C9D460550DDAC2A47C9BF4A5DCCC4 /* QOP-dummy.m */,
+				16F4F3F90304445956995726E2C52FE9 /* QOP-Info.plist */,
+				EDACEEC9B83CD20E3130C27F34B7E3AF /* QOP-prefix.pch */,
+				59C528F3B8EA9C45D40DD5AAE1595C69 /* QOP-umbrella.h */,
+				D1C7ABF38B44C97BD8DE15CE0C1E32F9 /* QOP.debug.xcconfig */,
+				7AD0A04606A8DCA8C52E61DF374B74A3 /* QOP.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QOP";
+			sourceTree = "<group>";
+		};
 		6F90DB788AEBE2EE88DE4CF1F35818D7 /* Pods-QOP_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,56 +397,35 @@
 			path = "Target Support Files/Pods-QOP_Example";
 			sourceTree = "<group>";
 		};
-		837CD18C30ACF1CAD97C9E792FBBF4D7 /* extobjc */ = {
+		AEA14838E7527BC3D7CB1E91FE329E7C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B0F0B67B0D2737B08DE97D8B94DA37F /* EXTADT.h */,
-				EBB45ECD147AC07701C7E218B8936BAD /* EXTADT.m */,
-				1AD30CA985A92A209DD18F9E5D0A8CF6 /* EXTConcreteProtocol.h */,
-				6C8959DDD702CCBE3FDDFE3D7C8B79BA /* EXTConcreteProtocol.m */,
-				5B9C93C28541917D8B20F19AABB2AE75 /* EXTCoroutine.h */,
-				DDDECFA06DEEA1BC647A55193CF313C2 /* EXTKeyPathCoding.h */,
-				2E4D5CACF04BCB83EF662060C71E10DF /* EXTNil.h */,
-				204C94D19D6E1AF4A9878B2624ADCCA3 /* EXTNil.m */,
-				B6AF691F4039B8C67648A6F4F2E46942 /* EXTobjc.h */,
-				C2A39C4F562AEEFD78B7B959FBFE0875 /* EXTRuntimeExtensions.h */,
-				720D3E7C493D63E56CA3DB56A48B6ACD /* EXTRuntimeExtensions.m */,
-				A654D5B1AD1DE1F00F720E61F64D729F /* EXTSafeCategory.h */,
-				98B6CC70C396F870B566E13C09075EA7 /* EXTSafeCategory.m */,
-				50BC30A26B2FE6BFED1C002BD66E792B /* EXTScope.h */,
-				711AF3D356FF1CC3A795100344FCD0F4 /* EXTScope.m */,
-				A7BD2129FA79ACE627D7DFE785DB8913 /* EXTSelectorChecking.h */,
-				F64086162057FF70FC4E6F56FA6744F3 /* EXTSelectorChecking.m */,
-				D4B0D05ADD6914CC81D8357AB408CBA7 /* EXTSynthesize.h */,
-				A451A69EC66A468A33186ECD04D52E67 /* metamacros.h */,
-				4C1A58D7B4D352EED9C4EE378A9903B8 /* NSInvocation+EXT.h */,
-				1D13702CA92362BB359B7492C2FC0380 /* NSInvocation+EXT.m */,
-				8824ADFACACFA6D838F3CDBD43F0D248 /* NSMethodSignature+EXT.h */,
-				162CF40E514CE91B0D166607E95DBB17 /* NSMethodSignature+EXT.m */,
-				CF5AC10A1591FA4B9058DB4EFA4EA91B /* Support Files */,
-			);
-			name = extobjc;
-			path = extobjc;
-			sourceTree = "<group>";
-		};
-		BA57DB182782C3B11D2C8E30140CD858 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF229246233CBAA7A554544D703AD9CF /* QOP.modulemap */,
-				15DA575407195219B265EE3F0E320EF1 /* QOP.xcconfig */,
-				E31648C4E9BAB5E2325F787C684184E4 /* QOP-dummy.m */,
-				0AC3EE5558035EEA2A16B8142D12AFA9 /* QOP-Info.plist */,
-				6764625BE306F6C8392E985A032F9703 /* QOP-prefix.pch */,
-				7FBF55F90A01FD9D11BD02EC2C79CC04 /* QOP-umbrella.h */,
+				4E2716E0C7F852BADD8B098EEFA86302 /* KVOController.modulemap */,
+				CF448D468E31DFF4CBDF06D7564EA5EF /* KVOController-dummy.m */,
+				726E1E18DEA5FCC5055313A2DDA7C52F /* KVOController-Info.plist */,
+				AAB16FB69A2B7329B1FC2E74ED9C6C7D /* KVOController-prefix.pch */,
+				FEE1483905D31CA307C2C797F704168A /* KVOController-umbrella.h */,
+				21538A7B874F99DD97DE93AF2480A376 /* KVOController.debug.xcconfig */,
+				40D9626D06A74CBF1DC11B9E58F6FC50 /* KVOController.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QOP";
+			path = "../Target Support Files/KVOController";
+			sourceTree = "<group>";
+		};
+		C23993607E45B65129009B456AB3723C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0CDD8CD6A3B6BDB8D7AEB436D69FADCC /* LICENSE */,
+				7300E36D741B50A293EE8A9A4CE10012 /* QOP.podspec */,
+				EA834711C4474F492C89C67190D77C8A /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C4505CC086CA89054101E0363C6DBF6F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A709E7D1143A8AFCB41E4FDF116318F /* QOP */,
+				4AD3151B4F431F60B7647750AD2B56BE /* QOP */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -410,20 +440,6 @@
 				137EF05F482DA327BA860E9F44F7D071 /* Products */,
 				5A7CD119C1498C847464BABCD886C7C0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF5AC10A1591FA4B9058DB4EFA4EA91B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				225B1950A53DD6EA9DD74F02D693512D /* extobjc.modulemap */,
-				1B947CED34DF7E14A6E4173D7929D9F5 /* extobjc.xcconfig */,
-				757BDC00D100F769466F95B776252998 /* extobjc-dummy.m */,
-				5D2CF02AC0AD2570E7104BE9792332E3 /* extobjc-Info.plist */,
-				3092CEDC305AB18DEE9242FFBE468422 /* extobjc-prefix.pch */,
-				70AA2EE39B900E539DCD0A33CDAE1FE2 /* extobjc-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/extobjc";
 			sourceTree = "<group>";
 		};
 		CF78C8DB656BD1B311E9B2883C289A3F /* Pods-QOP_Tests */ = {
@@ -452,27 +468,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD3A6BE46E7B64AD9680B0395D9E0BD8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B3ACA97786D09083DB13A53C38EAE9C1 /* LICENSE */,
-				A8D2AA2354428C5F21664268B78A0D4D /* QOP.podspec */,
-				5DF077FFB15D48092309910125BADBDF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		095BDF767F2F2A265BDC1464CB8C46B7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3EE97249726959AB16CE703BF90C7809 /* Pods-QOP_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0E8280AE2F8318F7CFD01D6D9EF74BE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,47 +482,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30ADBC337591A23F128E6EE72F161155 /* Headers */ = {
+		504E6690C2ADBABA9BDFD3C89FB34094 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F6F69A31F75929F0B9861D87DEDFC1A /* EXTADT.h in Headers */,
-				93699C48989FDE6F0C709A415E39123B /* EXTConcreteProtocol.h in Headers */,
-				7EE77765AB8D5070D254B0176342E8A6 /* EXTCoroutine.h in Headers */,
-				849D172BF531101DE66D5B3CA3A42441 /* EXTKeyPathCoding.h in Headers */,
-				0EB3BE8D4C870023AF1D8D639A71B216 /* EXTNil.h in Headers */,
-				D12E68F072996203AF29F5D77799D1C0 /* extobjc-umbrella.h in Headers */,
-				7099E401F820E06E5FE0B7487160B49E /* EXTobjc.h in Headers */,
-				9FC669E934294DB1E5861DC2BFB76DAE /* EXTRuntimeExtensions.h in Headers */,
-				FE6A040E9793D09D5F1C50EE2497A815 /* EXTSafeCategory.h in Headers */,
-				80C51CF34EDED1E7AD7E1E8B9453C69C /* EXTScope.h in Headers */,
-				3A98193608074193DD2972AB88C7295A /* EXTSelectorChecking.h in Headers */,
-				4FA333B819A7AFC877BEE6C22502DE88 /* EXTSynthesize.h in Headers */,
-				82DC6B69B21DF88F0A3AA4ED7B91895A /* metamacros.h in Headers */,
-				322EBA0827FEC835A79EC54016D02152 /* NSInvocation+EXT.h in Headers */,
-				77B388C3888A76E091FB0538ED888D5F /* NSMethodSignature+EXT.h in Headers */,
+				EDC62062E5174EA699F61936A284507B /* NSObject+QOP.h in Headers */,
+				6416B6E5D342B08F1DBAE2833EBC6F35 /* QOP-umbrella.h in Headers */,
+				E4C18DED28D57D1E9A5242CF1BFAA515 /* QOP.h in Headers */,
+				652AC234FB781CCB4A70C318DF90F743 /* QOPDataBindContext.h in Headers */,
+				4DC983A98EEB3A49FC018F54844BB6E8 /* QOPInterface.h in Headers */,
+				5A7C421C1DCC8CFE404C9648728B0D68 /* QOPKVOInfo.h in Headers */,
+				98BE86062B3AEDFCD28964D0B831C078 /* QOPKVOProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82CCA4895E5480C738B0796D3A972B83 /* Headers */ = {
+		7C03EF4C70F08C19F352D5681FE476AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C327307ECD3F0073B6EB3F70B55FF013 /* NSObject+QOP.h in Headers */,
-				467E78685DC0132097072C075A6021E8 /* QOP-umbrella.h in Headers */,
-				6974D2067969500EB8B5D0BA12505B2F /* QOP.h in Headers */,
-				831AC9221FC25A41F64406E782F81728 /* QOPDataBindContext.h in Headers */,
-				1AF6FE05DD47AB80C7ADA05145F12D56 /* QOPInterface.h in Headers */,
-				0595FC32A02F7EC8DA27631CBA12AA08 /* QOPKVOInfo.h in Headers */,
-				4558B5AB0A23F53E208268BF16C1672E /* QOPKVOProxy.h in Headers */,
+				981A65DDDAD084F47F69D87770DE062F /* Pods-QOP_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC56BB571C17599DF8EFF4A7E104F479 /* Headers */ = {
+		B6A25284C7F63081150CCC902280CA09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCBFCD97714DA3D14F271378E0B51F1C /* Pods-QOP_Example-umbrella.h in Headers */,
+				CF66DAD8FD6B0A453C66CD4A0A492C55 /* EXTADT.h in Headers */,
+				6B8EBA52C995AECB2B2EA2EA1872127A /* EXTConcreteProtocol.h in Headers */,
+				846DF4512E210C4F128BEF8066DFD02C /* EXTCoroutine.h in Headers */,
+				EF2063C11DC6F35F74886F51B034316E /* EXTKeyPathCoding.h in Headers */,
+				97FF803432B1FFBA7CC05D81FF00E595 /* EXTNil.h in Headers */,
+				2340F4212861CC9F4AA3F4B59A057035 /* extobjc-umbrella.h in Headers */,
+				411343C29EE9FFB1CE2259CBBBF6ABC9 /* EXTobjc.h in Headers */,
+				16403895E8999185EA6BF89F2FD2367E /* EXTRuntimeExtensions.h in Headers */,
+				1F9AF25243DD0B71A9D50330B3D8C799 /* EXTSafeCategory.h in Headers */,
+				516148D27F8239766354DDD5E9B37058 /* EXTScope.h in Headers */,
+				8DD277C9DAA5D67227BF9254A8E5D790 /* EXTSelectorChecking.h in Headers */,
+				3A2C4D04680176B45EEC827ACE3E667B /* EXTSynthesize.h in Headers */,
+				CBA55C64979F07CD415529E3F502AAAD /* metamacros.h in Headers */,
+				B07DAFC7C696BF73011D2C689DFB584B /* NSInvocation+EXT.h in Headers */,
+				74730A8E549472F0427175084A884A55 /* NSMethodSignature+EXT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15BBCF94B8E59D958A89BD077176391 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514AC300D90F59B60BB500DBF0F71589 /* Pods-QOP_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,18 +557,18 @@
 		};
 		6EE5ED13FCD2BA3B5D9D85EDC7BD62F7 /* QOP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B0EA488FED9508DBFF5675E14AD9DC6 /* Build configuration list for PBXNativeTarget "QOP" */;
+			buildConfigurationList = 54339AC38AC64A86A05DDB2BC80ABAF2 /* Build configuration list for PBXNativeTarget "QOP" */;
 			buildPhases = (
-				82CCA4895E5480C738B0796D3A972B83 /* Headers */,
-				54AB9EEC0B113802A6DA238F19B77787 /* Sources */,
-				4429DDF31CE7A7E7683DDBAFBC29E583 /* Frameworks */,
-				F8C06BA32C534ACA8A0DC3CD64062081 /* Resources */,
+				504E6690C2ADBABA9BDFD3C89FB34094 /* Headers */,
+				DA20BFC23E0D68CEDCA4F95BF14DC296 /* Sources */,
+				4B22EC6398A400747FCC085CE715A465 /* Frameworks */,
+				90890FBDE2CAF05FAE1320F84B05D5AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D0D8283EE4E74E492081E273AA3A7C8F /* PBXTargetDependency */,
-				C558FE4AC3058005DDC97E8C7C876E5F /* PBXTargetDependency */,
+				2EF8C662493E2FC1E73AB0EF04E72AAD /* PBXTargetDependency */,
+				B7A7F2DCE8E78727631DCD5B1F5EA392 /* PBXTargetDependency */,
 			);
 			name = QOP;
 			productName = QOP;
@@ -571,19 +577,19 @@
 		};
 		983668E9E7610AAB9ACDBD51ED35A3FB /* Pods-QOP_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81880F7AFA24066701584E85E2FDB01E /* Build configuration list for PBXNativeTarget "Pods-QOP_Example" */;
+			buildConfigurationList = CD60EF55B84AC9DE4B1CA39F7F35A420 /* Build configuration list for PBXNativeTarget "Pods-QOP_Example" */;
 			buildPhases = (
-				BC56BB571C17599DF8EFF4A7E104F479 /* Headers */,
-				4274F3890D0FB170DDA7FC45E94099F8 /* Sources */,
-				954E3377FB0BC1C7765360B213701A96 /* Frameworks */,
-				B0347C720F384A5F3A6FAF6EAC1C9EAE /* Resources */,
+				E15BBCF94B8E59D958A89BD077176391 /* Headers */,
+				2A33D6F37419F996FC0FD495EA7CF0C2 /* Sources */,
+				551C213D0CD9BF2F16826A207F2FB088 /* Frameworks */,
+				8D4FF20F255FD6C9C643CEDA76365389 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDA0970EEEDCFBF6CB49B0F60BD61275 /* PBXTargetDependency */,
-				ED87A41FDA142C70D1DBA250CFC0F969 /* PBXTargetDependency */,
-				13A31A01A7427041BF1ED40659EE9C1A /* PBXTargetDependency */,
+				9BFF724F54C8D33408508CB0970AD658 /* PBXTargetDependency */,
+				719B98CCB1C7F86A6A25EAE2B70CAAB4 /* PBXTargetDependency */,
+				D0B32FD77EC65801BD9D0171CF5E597A /* PBXTargetDependency */,
 			);
 			name = "Pods-QOP_Example";
 			productName = "Pods-QOP_Example";
@@ -592,17 +598,17 @@
 		};
 		C9F240FFA8BBAABA249FB147DD39EC01 /* Pods-QOP_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E31A7D6A9BF6E56B5F751B5E3468BA04 /* Build configuration list for PBXNativeTarget "Pods-QOP_Tests" */;
+			buildConfigurationList = 47D72F0057C1C56D03B1F34A33E8D510 /* Build configuration list for PBXNativeTarget "Pods-QOP_Tests" */;
 			buildPhases = (
-				095BDF767F2F2A265BDC1464CB8C46B7 /* Headers */,
-				CD64873633F196028416A3D2CCDF856E /* Sources */,
-				EF0EA32E541D6B5F603E16BED4F4192B /* Frameworks */,
-				C33AC0783315ECAB1861CB14640CDCDA /* Resources */,
+				7C03EF4C70F08C19F352D5681FE476AB /* Headers */,
+				9D5B3F4DBE18A494E7BDCEAB5C534CED /* Sources */,
+				CCF7CC9007C225A01CA02FDD11581924 /* Frameworks */,
+				B431B67C95666C31406F287C45D3903A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EAF6205B122D51111A7CC9B896D0889C /* PBXTargetDependency */,
+				5DF2E166DC555AA643C39A8C30C05F07 /* PBXTargetDependency */,
 			);
 			name = "Pods-QOP_Tests";
 			productName = "Pods-QOP_Tests";
@@ -611,12 +617,12 @@
 		};
 		F75BED9EC30B6C5F67A006685B428CA1 /* extobjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29289BE2414A0CE9842839C56C08C8AA /* Build configuration list for PBXNativeTarget "extobjc" */;
+			buildConfigurationList = 47FCB3363155C240B92C750F0A08D12D /* Build configuration list for PBXNativeTarget "extobjc" */;
 			buildPhases = (
-				30ADBC337591A23F128E6EE72F161155 /* Headers */,
-				925F32DF0B5512363009DB6AE4984BE3 /* Sources */,
-				A749674025DA2149B4C2B326826C2783 /* Frameworks */,
-				E5C849BEF33AF84766725BDAC2D2E343 /* Resources */,
+				B6A25284C7F63081150CCC902280CA09 /* Headers */,
+				F49726FA730CB0187C6AEE46DABFCF0B /* Sources */,
+				3B65697123B6E7ADFA093CBA36DDE779 /* Frameworks */,
+				E56732ADBDDE17DC797FA9E63E881A42 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -659,14 +665,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B0347C720F384A5F3A6FAF6EAC1C9EAE /* Resources */ = {
+		8D4FF20F255FD6C9C643CEDA76365389 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C33AC0783315ECAB1861CB14640CDCDA /* Resources */ = {
+		90890FBDE2CAF05FAE1320F84B05D5AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431B67C95666C31406F287C45D3903A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -680,14 +693,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5C849BEF33AF84766725BDAC2D2E343 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8C06BA32C534ACA8A0DC3CD64062081 /* Resources */ = {
+		E56732ADBDDE17DC797FA9E63E881A42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -707,127 +713,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4274F3890D0FB170DDA7FC45E94099F8 /* Sources */ = {
+		2A33D6F37419F996FC0FD495EA7CF0C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED814E97D5EB6E5F06998AE40C7CAD7E /* Pods-QOP_Example-dummy.m in Sources */,
+				C83E637E39CC30286905752B02342AA9 /* Pods-QOP_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54AB9EEC0B113802A6DA238F19B77787 /* Sources */ = {
+		9D5B3F4DBE18A494E7BDCEAB5C534CED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C066DA47E537B83D9C6756E2401956 /* NSObject+QOP.m in Sources */,
-				6E9DFDADC6C62F77462A10E5F9A5C2A1 /* QOP-dummy.m in Sources */,
-				D64AFDFDFAC1B97F2B6A8548B8E74D39 /* QOPDataBindContext.m in Sources */,
-				E0BA14D6574A472C5156730FE853887E /* QOPKVOInfo.m in Sources */,
-				A60050F7085E17E0E3E8D970A47F88AC /* QOPKVOProxy.m in Sources */,
+				6809FA04DB3A10DE8560DB1624A7F555 /* Pods-QOP_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		925F32DF0B5512363009DB6AE4984BE3 /* Sources */ = {
+		DA20BFC23E0D68CEDCA4F95BF14DC296 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE9E63AAFE3AD703E0A788F11093A69 /* EXTADT.m in Sources */,
-				F9C7C19DD0A319F0E9043D09306EEC0C /* EXTConcreteProtocol.m in Sources */,
-				80500CC702A4A64A57DF39223B3B6014 /* EXTNil.m in Sources */,
-				64FA2D0A4102AEB3FAD491CC4F040080 /* extobjc-dummy.m in Sources */,
-				B1D0F2E9F69FF1B775D9D492F49D3C23 /* EXTRuntimeExtensions.m in Sources */,
-				FB40386124CCE9185DA43EE6BBD603F1 /* EXTSafeCategory.m in Sources */,
-				6CF1B6554B90B8F76D3D9189FB2D38D3 /* EXTScope.m in Sources */,
-				DAAC34520B84EE09FBDA354FB498D358 /* EXTSelectorChecking.m in Sources */,
-				0D750EA32DA4718D31A011F6E54A0392 /* NSInvocation+EXT.m in Sources */,
-				CD190627D6AEAD9617352559548480CE /* NSMethodSignature+EXT.m in Sources */,
+				CBB85DCA492F9328D62915BE3867044C /* NSObject+QOP.m in Sources */,
+				58DC3AFCEE3558C2B055C6721DB5318F /* QOP-dummy.m in Sources */,
+				5E43D7A10385168E8CAB5CDA428AF1E3 /* QOPDataBindContext.m in Sources */,
+				AF27847A09A0C9B3A08B04C670FF119E /* QOPKVOInfo.m in Sources */,
+				50FC61CB4C5209C48879691C9A58C2A7 /* QOPKVOProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD64873633F196028416A3D2CCDF856E /* Sources */ = {
+		F49726FA730CB0187C6AEE46DABFCF0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6486F8AC107887650975972C410216 /* Pods-QOP_Tests-dummy.m in Sources */,
+				13A155A515E62983AA34962A3E975FC1 /* EXTADT.m in Sources */,
+				6F7C785FA9922F5C236C0B3DB55CDDB9 /* EXTConcreteProtocol.m in Sources */,
+				1CC79817AA964D3712E8F189216383C2 /* EXTNil.m in Sources */,
+				4B485129974DA7B66BA5B11B2E379B34 /* extobjc-dummy.m in Sources */,
+				2D85D2E4A68B2E7E54DBFFFFC5B87B0F /* EXTRuntimeExtensions.m in Sources */,
+				22950480FED4927B4C7C405092BDE21A /* EXTSafeCategory.m in Sources */,
+				61C1D38E5CDEECB120BFC0BD5DDA8D9A /* EXTScope.m in Sources */,
+				36FE4D7514470D1ABF599031A1860350 /* EXTSelectorChecking.m in Sources */,
+				84C9E2A1BB64987418C3A6A2D710A9FF /* NSInvocation+EXT.m in Sources */,
+				01EADBECEE61B23F8C560273AFF5ECF1 /* NSMethodSignature+EXT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13A31A01A7427041BF1ED40659EE9C1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = extobjc;
-			target = F75BED9EC30B6C5F67A006685B428CA1 /* extobjc */;
-			targetProxy = A25BF1825C7700F309FFAB35EA781B9E /* PBXContainerItemProxy */;
-		};
-		C558FE4AC3058005DDC97E8C7C876E5F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = extobjc;
-			target = F75BED9EC30B6C5F67A006685B428CA1 /* extobjc */;
-			targetProxy = 5103E30395FAB1BDA1DA6B8AA15F96B8 /* PBXContainerItemProxy */;
-		};
-		D0D8283EE4E74E492081E273AA3A7C8F /* PBXTargetDependency */ = {
+		2EF8C662493E2FC1E73AB0EF04E72AAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVOController;
 			target = 2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */;
-			targetProxy = DD9923A28F125B4440A015C7CF683C2E /* PBXContainerItemProxy */;
+			targetProxy = DDEDDF49C8E5F94E81C94756CD96EE0D /* PBXContainerItemProxy */;
 		};
-		EAF6205B122D51111A7CC9B896D0889C /* PBXTargetDependency */ = {
+		5DF2E166DC555AA643C39A8C30C05F07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QOP_Example";
 			target = 983668E9E7610AAB9ACDBD51ED35A3FB /* Pods-QOP_Example */;
-			targetProxy = 2F51996D44E3E029B9E44F8B947B8ED6 /* PBXContainerItemProxy */;
+			targetProxy = EA280BC484E56C680B0424CF2C284FB4 /* PBXContainerItemProxy */;
 		};
-		ED87A41FDA142C70D1DBA250CFC0F969 /* PBXTargetDependency */ = {
+		719B98CCB1C7F86A6A25EAE2B70CAAB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QOP;
 			target = 6EE5ED13FCD2BA3B5D9D85EDC7BD62F7 /* QOP */;
-			targetProxy = 257AFFE60E6890EB90E47B2C19785D48 /* PBXContainerItemProxy */;
+			targetProxy = 83490A5AB15DD52EB3B34C167EE3D054 /* PBXContainerItemProxy */;
 		};
-		EDA0970EEEDCFBF6CB49B0F60BD61275 /* PBXTargetDependency */ = {
+		9BFF724F54C8D33408508CB0970AD658 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVOController;
 			target = 2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */;
-			targetProxy = 49E4B79F873ED55437D41F081D2ED6EC /* PBXContainerItemProxy */;
+			targetProxy = 076F68816D589328994A415F5767448D /* PBXContainerItemProxy */;
+		};
+		B7A7F2DCE8E78727631DCD5B1F5EA392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = extobjc;
+			target = F75BED9EC30B6C5F67A006685B428CA1 /* extobjc */;
+			targetProxy = 2F0FB7A5314786570A69DF0C034E739B /* PBXContainerItemProxy */;
+		};
+		D0B32FD77EC65801BD9D0171CF5E597A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = extobjc;
+			target = F75BED9EC30B6C5F67A006685B428CA1 /* extobjc */;
+			targetProxy = F778F71B91111A41EDC6F1F1BF8CEAD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05D3ECB28894DA19B50A41CA78E702B7 /* Debug */ = {
+		0459D6A86A3F9AF269FD748177BF805C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBCC0F6E53B3677CB649C07065B3BD8B /* KVOController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVOController/KVOController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
-				PRODUCT_MODULE_NAME = KVOController;
-				PRODUCT_NAME = KVOController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		19B7E67ECE5FC180049994443BC84E32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B10CBF20BF917312C0A688236DAE62D4 /* Pods-QOP_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9AA71142396A2474EFC4BA7D721F5015 /* Pods-QOP_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -839,12 +814,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QOP_Tests/Pods-QOP_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QOP_Example/Pods-QOP_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QOP_Tests/Pods-QOP_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QOP_Example/Pods-QOP_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -853,10 +828,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -918,9 +894,9 @@
 			};
 			name = Release;
 		};
-		5BDD7247E28641AD1EFD1030686F153A /* Debug */ = {
+		6997FB251F2BB9E619FC6B2F20BA6442 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36595416A76E47512B0A536D8AFA2FC0 /* Pods-QOP_Example.debug.xcconfig */;
+			baseConfigurationReference = B10CBF20BF917312C0A688236DAE62D4 /* Pods-QOP_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -932,12 +908,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QOP_Example/Pods-QOP_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QOP_Tests/Pods-QOP_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QOP_Example/Pods-QOP_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QOP_Tests/Pods-QOP_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -951,9 +927,9 @@
 			};
 			name = Debug;
 		};
-		6873AE367118F51E93ECD431C40DCC27 /* Release */ = {
+		7D34C8B2C74DBAD9AF7BA6E2DDA84371 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBCC0F6E53B3677CB649C07065B3BD8B /* KVOController.xcconfig */;
+			baseConfigurationReference = 21538A7B874F99DD97DE93AF2480A376 /* KVOController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -977,11 +953,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1047,104 +1022,9 @@
 			};
 			name = Debug;
 		};
-		A62FA39D3D6A55849115662653821FF6 /* Release */ = {
+		A307A49D84E4F1BF5F8AD09E373A9802 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B947CED34DF7E14A6E4173D7929D9F5 /* extobjc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/extobjc/extobjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/extobjc/extobjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/extobjc/extobjc.modulemap";
-				PRODUCT_MODULE_NAME = extobjc;
-				PRODUCT_NAME = extobjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC23E5C972490EC16B29CBB15599F5D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15DA575407195219B265EE3F0E320EF1 /* QOP.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QOP/QOP-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QOP/QOP-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QOP/QOP.modulemap";
-				PRODUCT_MODULE_NAME = QOP;
-				PRODUCT_NAME = QOP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E9CC6684D41EC3967096862E7A11256B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15DA575407195219B265EE3F0E320EF1 /* QOP.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QOP/QOP-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QOP/QOP-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QOP/QOP.modulemap";
-				PRODUCT_MODULE_NAME = QOP;
-				PRODUCT_NAME = QOP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F870BF928A9E2A1FE994153FB18A9783 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AA71142396A2474EFC4BA7D721F5015 /* Pods-QOP_Example.release.xcconfig */;
+			baseConfigurationReference = 36595416A76E47512B0A536D8AFA2FC0 /* Pods-QOP_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1170,44 +1050,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F917D5D881F219AC526156F146CBE603 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B947CED34DF7E14A6E4173D7929D9F5 /* extobjc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/extobjc/extobjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/extobjc/extobjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/extobjc/extobjc.modulemap";
-				PRODUCT_MODULE_NAME = extobjc;
-				PRODUCT_NAME = extobjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FC1F77E9705AA0A14E5515B85A467C78 /* Release */ = {
+		B22229252541CE5F6A755A786D59CEEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8463DAC5193B41717763AAE4B571A6E2 /* Pods-QOP_Tests.release.xcconfig */;
 			buildSettings = {
@@ -1241,23 +1089,181 @@
 			};
 			name = Release;
 		};
+		CC547E276201F4DD44507B5D22996CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C7ABF38B44C97BD8DE15CE0C1E32F9 /* QOP.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QOP/QOP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QOP/QOP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QOP/QOP.modulemap";
+				PRODUCT_MODULE_NAME = QOP;
+				PRODUCT_NAME = QOP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD7D2DA73FA695CA7697272DF8AD1054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD0A04606A8DCA8C52E61DF374B74A3 /* QOP.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QOP/QOP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QOP/QOP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QOP/QOP.modulemap";
+				PRODUCT_MODULE_NAME = QOP;
+				PRODUCT_NAME = QOP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE2A1D8FC04CCE0D373C7E293AAEA855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367B54DD87410BC63A9431F0C3B6875B /* extobjc.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/extobjc/extobjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/extobjc/extobjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/extobjc/extobjc.modulemap";
+				PRODUCT_MODULE_NAME = extobjc;
+				PRODUCT_NAME = extobjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F047C4931DC906D0289422C22A807E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962244C9A3E701041F77E7B3AADE4459 /* extobjc.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/extobjc/extobjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/extobjc/extobjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/extobjc/extobjc.modulemap";
+				PRODUCT_MODULE_NAME = extobjc;
+				PRODUCT_NAME = extobjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9E022EFB7CDD7EAC06EA86F263B620B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D9626D06A74CBF1DC11B9E58F6FC50 /* KVOController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/KVOController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				PRODUCT_MODULE_NAME = KVOController;
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29289BE2414A0CE9842839C56C08C8AA /* Build configuration list for PBXNativeTarget "extobjc" */ = {
+		47D72F0057C1C56D03B1F34A33E8D510 /* Build configuration list for PBXNativeTarget "Pods-QOP_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F917D5D881F219AC526156F146CBE603 /* Debug */,
-				A62FA39D3D6A55849115662653821FF6 /* Release */,
+				6997FB251F2BB9E619FC6B2F20BA6442 /* Debug */,
+				B22229252541CE5F6A755A786D59CEEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B0EA488FED9508DBFF5675E14AD9DC6 /* Build configuration list for PBXNativeTarget "QOP" */ = {
+		47FCB3363155C240B92C750F0A08D12D /* Build configuration list for PBXNativeTarget "extobjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC23E5C972490EC16B29CBB15599F5D2 /* Debug */,
-				E9CC6684D41EC3967096862E7A11256B /* Release */,
+				DE2A1D8FC04CCE0D373C7E293AAEA855 /* Debug */,
+				F047C4931DC906D0289422C22A807E3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1271,29 +1277,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		54339AC38AC64A86A05DDB2BC80ABAF2 /* Build configuration list for PBXNativeTarget "QOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC547E276201F4DD44507B5D22996CB8 /* Debug */,
+				DD7D2DA73FA695CA7697272DF8AD1054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		605360BAC5A14D6B62096A72BE755391 /* Build configuration list for PBXNativeTarget "KVOController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05D3ECB28894DA19B50A41CA78E702B7 /* Debug */,
-				6873AE367118F51E93ECD431C40DCC27 /* Release */,
+				7D34C8B2C74DBAD9AF7BA6E2DDA84371 /* Debug */,
+				F9E022EFB7CDD7EAC06EA86F263B620B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81880F7AFA24066701584E85E2FDB01E /* Build configuration list for PBXNativeTarget "Pods-QOP_Example" */ = {
+		CD60EF55B84AC9DE4B1CA39F7F35A420 /* Build configuration list for PBXNativeTarget "Pods-QOP_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BDD7247E28641AD1EFD1030686F153A /* Debug */,
-				F870BF928A9E2A1FE994153FB18A9783 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E31A7D6A9BF6E56B5F751B5E3468BA04 /* Build configuration list for PBXNativeTarget "Pods-QOP_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19B7E67ECE5FC180049994443BC84E32 /* Debug */,
-				FC1F77E9705AA0A14E5515B85A467C78 /* Release */,
+				A307A49D84E4F1BF5F8AD09E373A9802 /* Debug */,
+				0459D6A86A3F9AF269FD748177BF805C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
